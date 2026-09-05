@@ -1,0 +1,469 @@
+code,norm_code,name,category,sub_category,swatch_type,swatch_file,hex_catalog,hex_sampled,source_page,roll_size,supplier_price_per_m,supplier_price_per_roll,availability_flag,orderable,manage_stock,available_m,stock_status,stock_tab,stock_raw_code,in_price_sheet
+BLC01,BLC01,Valen,01 Basic,Mono Blanc,image,BLC01.jpg,#D8D9D3,#D8D9D3,6,1.22 x 40m,28.88,1100.0,In Stock,True,True,2279.0,instock,Marbles + Stone + Concrete,BLC01 (40m) (NEW),True
+BLC02,BLC02,Cream,01 Basic,Mono Blanc,image,BLC02.jpg,#EEECE1,#EEECE1,6,1.22 x 40m,28.88,1100.0,In Stock,True,True,611.0,instock,Marbles + Stone + Concrete,BLC02 (40m) (NEW),True
+BLC03,BLC03,Pocelain,01 Basic,Mono Blanc,image,BLC03.jpg,#EAE7DF,#EAE7DE,6,1.22 x 40m,28.88,1100.0,In Stock,True,True,661.0,instock,Marbles + Stone + Concrete,BLC03 (40m) (NEW),True
+BLC04,BLC04,Terranova,01 Basic,Mono Blanc,image,BLC04.jpg,#CFD6CF,#CFD6CF,6,1.22 x 40m,28.88,1100.0,In Stock,True,True,528.0,instock,Marbles + Stone + Concrete,BLC04 (40m) (NEW),True
+BLC05,BLC05,Pure White,01 Basic,Mono Blanc,image,BLC05.jpg,#EAECE4,#EAECE4,6,1.22 x 40m,28.88,1100.0,In Stock,True,True,420.0,instock,Marbles + Stone + Concrete,BLC05 (40m) (NEW),True
+BLC06,BLC06,Cream White,01 Basic,Mono Blanc,image,BLC06.jpg,#E9E7DC,#E9E7DC,6,1.22 x 40m,42.7,1708.0,Special Order,False,False,,onbackorder,,,True
+BLC07,BLC07,White,01 Basic,Mono Blanc,image,BLC07.jpg,#E1E6DE,#E1E6DE,6,1.22 x 40m,42.7,1708.0,Special Order,False,False,,onbackorder,,,True
+PTW01,PTW01,Ivory,01 Basic,Painted Wood,image,PTW01.jpg,#F8FAEF,#F8FAEF,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,1332.0,instock,Painted Woods + Woods,PTW01,True
+PTW02,PTW02,Medium Beige,01 Basic,Painted Wood,image,PTW02.jpg,#D6D4BD,#D6D4BE,9,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+PTW04,PTW04,Dark Grey,01 Basic,Painted Wood,image,PTW04.jpg,#4A5958,#4A5858,9,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+PTW05,PTW05,Blue Grey,01 Basic,Painted Wood,image,PTW05.jpg,#638186,#638187,9,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+PTW06,PTW06,Dusty Teal,01 Basic,Painted Wood,image,PTW06.jpg,#86B0AC,#87B1AD,9,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+PTW07,PTW07,Blue,01 Basic,Painted Wood,image,PTW07.jpg,#1A2747,#1A2748,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,282.0,instock,Painted Woods + Woods,PTW07,True
+PTW08,PTW08,Pistachio Green,01 Basic,Painted Wood,image,PTW08.jpg,#A6B5A4,#A6B5A4,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,268.0,instock,Painted Woods + Woods,PTW08,True
+PTW09,PTW09,Taupe,01 Basic,Painted Wood,image,PTW09.jpg,#70766A,#70766A,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,738.0,instock,Painted Woods + Woods,PTW09,True
+PTW10,PTW10,Light Beige,01 Basic,Painted Wood,image,PTW10.jpg,#DEDFD9,#DEDFD9,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,900.0,instock,Painted Woods + Woods,PTW10,True
+PTW11,PTW11,Light Grey,01 Basic,Painted Wood,image,PTW11.jpg,#9BA099,#9BA09A,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,427.0,instock,Painted Woods + Woods,PTW11,True
+PTW12,PTW12,Dark Greige,01 Basic,Painted Wood,image,PTW12.jpg,#818779,#818779,9,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+PTW14,PTW14,Greige,01 Basic,Painted Wood,image,PTW14.jpg,#BCC7C3,#BDC8C3,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,1117.0,instock,Painted Woods + Woods,PTW14,True
+PTW15,PTW15,Black,01 Basic,Painted Wood,image,PTW15.jpg,#15191D,#161A1D,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,990.0,instock,Painted Woods + Woods,PTW15,True
+PTW16,PTW16,Matte White,01 Basic,Painted Wood,image,PTW16.jpg,#FDFBF8,#FDFCF8,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,1097.0,instock,Painted Woods + Woods,PTW16,True
+ZSW04,ZSW04,White,01 Basic,Painted Wood,image,ZSW04.jpg,#F8F6F6,#F8F6F6,9,1.22 x 50 m,35.81,1705.0,In Stock,True,True,2971.0,instock,Painted Woods + Woods,ZSW04,True
+PNC41,PNC41,Stone Blast,01 Basic,Premium Painted Concrete,image,PNC41.jpg,#9D9187,#9D9187,7,1.22 x 40 m,51.5,2060.0,Special Order,False,True,2.0,instock,Marbles + Stone + Concrete,PNC41 (40m),True
+PNC42,PNC42,Stone Blast,01 Basic,Premium Painted Concrete,image,PNC42.jpg,#DEE4E2,#DEE4E2,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,666.0,instock,Marbles + Stone + Concrete,PNC42 (40m),True
+PNC43,PNC43,Stone Blast,01 Basic,Premium Painted Concrete,image,PNC43.jpg,#BFBCB3,#BFBCB3,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,242.0,instock,Marbles + Stone + Concrete,PNC43 (40m),True
+PNC44,PNC44,Stucco,01 Basic,Premium Painted Concrete,image,PNC44.jpg,#ECEFEE,#ECEFEE,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,620.0,instock,Marbles + Stone + Concrete,PNC44 (40m),True
+PNC45,PNC45,Stucco,01 Basic,Premium Painted Concrete,image,PNC45.jpg,#AAADA4,#AAADA4,7,1.22 x 40 m,51.5,2060.0,Special Order,False,True,333.0,instock,Marbles + Stone + Concrete,PNC45 (40m),True
+PNC46,PNC46,Stucco,01 Basic,Premium Painted Concrete,image,PNC46.jpg,#878C86,#878C86,7,1.22 x 40 m,51.5,2060.0,Special Order,False,False,,onbackorder,,,True
+PNC47,PNC47,Slate,01 Basic,Premium Painted Concrete,image,PNC47.jpg,#EBE9E1,#EBE9E1,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,1152.0,instock,Marbles + Stone + Concrete,PNC47 (40m),True
+PNC49,PNC49,Moonstone,01 Basic,Premium Painted Concrete,image,PNC49.jpg,#D3D2C9,#DEDCD3,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,3431.0,instock,Marbles + Stone + Concrete,PNC49 (40m),True
+PNC50,PNC50,Moonstone,01 Basic,Premium Painted Concrete,image,PNC50.jpg,#B6BDB3,#B6BDB3,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,2517.0,instock,Marbles + Stone + Concrete,PNC50 (40m),True
+PNC51,PNC51,Stone Blast,01 Basic,Premium Painted Concrete,image,PNC51.jpg,#FCFCFC,#FCFCFC,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,883.0,instock,Marbles + Stone + Concrete,PNC51 (40m),True
+PNC52,PNC52,Moonstone,01 Basic,Premium Painted Concrete,image,PNC52.jpg,#F4F8FA,#F4F8FB,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,1064.0,instock,Marbles + Stone + Concrete,PNC52 (40m),True
+PNC53,PNC53,Stone Blast,01 Basic,Premium Painted Concrete,image,PNC53.jpg,#DAE0DD,#DAE0DD,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,734.0,instock,Marbles + Stone + Concrete,PNC53 (40m),True
+PNC54,PNC54,Stucco,01 Basic,Premium Painted Concrete,image,PNC54.jpg,#546A66,#556A67,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,759.0,instock,Marbles + Stone + Concrete,PNC54 (40m),True
+PNC55,PNC55,Concrete White,01 Basic,Premium Painted Concrete,image,PNC55.jpg,#D8DACE,#D8DACD,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,2916.0,instock,Marbles + Stone + Concrete,PNC55 (40m),True
+PNC56,PNC56,Light Grey,01 Basic,Premium Painted Concrete,image,PNC56.jpg,#9AA79E,#99A69E,7,1.22 x 40 m,38.12,1452.0,In Stock,True,True,353.0,instock,Marbles + Stone + Concrete,PNC56 (40m),True
+PNC57,PNC57,Dark Stone,01 Basic,Premium Painted Concrete,image,PNC57.jpg,#404840,#3F4840,7,1.22 x 40m,38.12,1452.0,In Stock,True,True,327.0,instock,Marbles + Stone + Concrete,PNC57 (40m),True
+PNC58,PNC58,Sand Stone,01 Basic,Premium Painted Concrete,image,PNC58.jpg,#BEBBB2,#BDBBB2,7,1.22 x 40m,38.12,1452.0,In Stock,True,True,1124.0,instock,Marbles + Stone + Concrete,PNC58 (40m),True
+PNC59,PNC59,Sand Stone,01 Basic,Premium Painted Concrete,image,PNC59.jpg,#ACB2A6,#ACB2A6,7,1.22 x 40m,38.12,1452.0,In Stock,True,True,1279.0,instock,Marbles + Stone + Concrete,PNC59 (40m),True
+PNT01,PNT01,White,01 Basic,Premium Painted Wood,image,PNT01.jpg,#F2F6F5,#F2F6F5,9,1.22 x 40 m,35.81,1364.0,In Stock,True,True,417.0,instock,Painted Woods + Woods,PNT01 (40m),True
+PNT02,PNT02,Light Grey,01 Basic,Premium Painted Wood,image,PNT02.jpg,#CFD6C8,#CFD6C8,9,1.22 x 40 m,35.81,1364.0,In Stock,True,True,725.0,instock,Painted Woods + Woods,PNT02 (40m),True
+PNT03,PNT03,Light Greige,01 Basic,Premium Painted Wood,image,PNT03.jpg,#BABFB3,#BABFB4,9,1.22 x 40 m,35.81,1364.0,In Stock,True,True,846.0,instock,Painted Woods + Woods,PNT03 (40m),True
+PNT04,PNT04,Medium Grey,01 Basic,Premium Painted Wood,image,PNT04.jpg,#AAB1AA,#AAB1AA,9,1.22 x 40 m,35.81,1364.0,In Stock,True,True,1402.0,instock,Painted Woods + Woods,PNT04 (40m),True
+PNT05,PNT05,Dark Brown,01 Basic,Premium Painted Wood,image,PNT05.jpg,#4D534D,#4D544D,9,1.22 x 40 m,50.0,2000.0,Special Order,False,False,,onbackorder,,,True
+PNT07,PNT07,Green,01 Basic,Premium Painted Wood,image,PNT07.jpg,#628171,#628171,9,1.22 x 40 m,35.81,1364.0,In Stock,True,True,511.0,instock,Painted Woods + Woods,PNT07 (40m),True
+PNT09,PNT09,Blue Grey,01 Basic,Premium Painted Wood,image,PNT09.jpg,#3F5968,#3F5968,9,1.22 x 40 m,50.0,2000.0,Special Order,False,False,,onbackorder,,,True
+PNT10,PNT10,Dark Grey,01 Basic,Premium Painted Wood,image,PNT10.jpg,#485353,#495354,9,1.22 x 40 m,50.0,2000.0,Special Order,False,False,,onbackorder,,,True
+S115,S115,Classic White,01 Basic,Solid,vector,S115.png,#FFFFFF,#FFFFFF,8,1.22 x 50 m,27.72,1320.0,In Stock,True,True,5424.0,instock,Solid Colours,S115,True
+S126,S126,White Smoke,01 Basic,Solid,vector,S126.png,#EAE4DD,#EAE4DD,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,2086.0,instock,Solid Colours,S126,True
+S127,S127,Cofee Cream,01 Basic,Solid,vector,S127.png,#EBD4B3,#EBD4B3,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,710.0,instock,Solid Colours,S127,True
+S128,S128,Sand,01 Basic,Solid,vector,S128.png,#C8C2B5,#C8C2B5,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1835.0,instock,Solid Colours,S128,True
+S140,S140,Black,01 Basic,Solid,vector,S140.png,#242321,#242321,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,3887.0,instock,Solid Colours,S140,True
+S141,S141,Porcelain Beige,01 Basic,Solid,vector,S141.png,#F8DEA0,#F8DEA0,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,0.0,outofstock,Solid Colours,S141,True
+S143,S143,Medium Grey,01 Basic,Solid,vector,S143.png,#7D7B7A,#7D7B7A,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,876.0,instock,Solid Colours,S143,True
+S145,S145,Brown,01 Basic,Solid,vector,S145.png,#634F3D,#634F3D,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,221.0,instock,Solid Colours,S145,True
+S146,S146,Orange Yellow,01 Basic,Solid,vector,S146.png,#F6B24D,#F6B24D,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S147,S147,Red,01 Basic,Solid,vector,S147.png,#BF4B33,#BF4B33,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S149,S149,Dark Grey,01 Basic,Solid,vector,S149.png,#3E3E3E,#3E3E3E,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,101.0,instock,Solid Colours,S149,True
+S150,S150,Classic Blue,01 Basic,Solid,vector,S150.png,#293A68,#293A68,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S153,S153,Powder Blue,01 Basic,Solid,vector,S153.png,#CCCDD2,#CCCDD2,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S156,S156,Clay Beige,01 Basic,Solid,vector,S156.png,#B8AE9E,#B8AE9E,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,2278.0,instock,Solid Colours,S156,True
+S157,S157,Warm Stone,01 Basic,Solid,vector,S157.png,#948473,#948473,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S158,S158,Light Grey,01 Basic,Solid,vector,S158.png,#C5C2C1,#C5C2C1,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,570.0,instock,Solid Colours,S158,True
+S159,S159,Charcoal Grey,01 Basic,Solid,vector,S159.png,#5E6062,#5E6062,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1422.0,instock,Solid Colours,S159,True
+S166,S166,Yellow Green,01 Basic,Solid,vector,S166.png,#E4D86B,#E4D86B,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S169,S169,Orange,01 Basic,Solid,vector,S169.png,#F68847,#F68847,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,4.0,instock,Solid Colours,S169,True
+S173,S173,Royal Blue,01 Basic,Solid,vector,S173.png,#325EA9,#325EA9,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,25.0,instock,Solid Colours,S173,True
+S175,S175,Blue Turquoise,01 Basic,Solid,vector,S175.png,#57A6B8,#57A6B8,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,6.0,instock,Solid Colours,S175,True
+S176,S176,Off-White,01 Basic,Solid,vector,S176.png,#FFF6EF,#FFF6EF,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,5138.0,instock,Solid Colours,S176,True
+S177,S177,Pearl Ivory,01 Basic,Solid,vector,S177.png,#F8E8E1,#F8E8E1,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,0.0,outofstock,Solid Colours,S177,True
+S178,S178,Cream,01 Basic,Solid,vector,S178.png,#FFF1E5,#FFF1E5,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,3491.0,instock,Solid Colours,S178,True
+S179,S179,Beige,01 Basic,Solid,vector,S179.png,#E9DDCF,#E9DDCF,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,3853.0,instock,Solid Colours,S179,True
+S181,S181,Classic Greige,01 Basic,Solid,vector,S181.png,#B8ABA1,#B8ABA1,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,2402.0,instock,Solid Colours,S181,True
+S183,S183,Cacao,01 Basic,Solid,vector,S183.png,#7B7266,#7B7266,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S185,S185,French Lilac,01 Basic,Solid,vector,S185.png,#C2CAE0,#C2CAE0,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S186,S186,Sky Blue,01 Basic,Solid,vector,S186.png,#86B4D5,#86B4D5,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S188,S188,Yellow,01 Basic,Solid,vector,S188.png,#F4C444,#F4C444,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S189,S189,Mint Green,01 Basic,Solid,vector,S189.png,#99B859,#99B859,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S194,S194,Mustard,01 Basic,Solid,vector,S194.png,#F9CA8C,#F9CA8C,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S195,S195,Platinum Blue,01 Basic,Solid,vector,S195.png,#8F9C9F,#8F9C9F,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,181.0,instock,Solid Colours,S195,True
+S197,S197,Dark Blue,01 Basic,Solid,vector,S197.png,#2E2F36,#2E2F36,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,620.0,instock,Solid Colours,S197,True
+S198,S198,Antique Grey,01 Basic,Solid,vector,S198.png,#686D79,#686D79,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,458.0,instock,Solid Colours,S198,True
+S200,S200,Olive Green,01 Basic,Solid,vector,S200.png,#9B976C,#9B976C,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S201,S201,Sage Green,01 Basic,Solid,vector,S201.png,#626A5D,#626A5D,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1401.0,instock,Solid Colours,S201,True
+S202,S202,Seaweed Green,01 Basic,Solid,vector,S202.png,#4E583E,#4E583E,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,0.0,outofstock,Solid Colours,S202,True
+S204,S204,Navy Blue,01 Basic,Solid,vector,S204.png,#343A52,#343A52,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,134.0,instock,Solid Colours,S204,True
+S208,S208,Ivory,01 Basic,Solid,vector,S208.png,#F7EEE7,#F7EEE7,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1710.0,instock,Solid Colours,S208,True
+S209,S209,Stone Grey,01 Basic,Solid,vector,S209.png,#9F9B9F,#9F9B9F,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1474.0,instock,Solid Colours,S209,True
+S210,S210,Ash,01 Basic,Solid,vector,S210.png,#87837E,#87837E,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S211,S211,Off-Black,01 Basic,Solid,vector,S211.png,#3C3C3E,#3C3C3E,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,689.0,instock,Solid Colours,S211,True
+S212,S212,Earth Green,01 Basic,Solid,vector,S212.png,#9D9D8E,#9D9D8E,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,2300.0,instock,Solid Colours,S212,True
+S213,S213,Peach,01 Basic,Solid,vector,S213.png,#F9AA8F,#F9AA8F,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,44.0,instock,Solid Colours,S213,True
+S214,S214,Light Green,01 Basic,Solid,vector,S214.png,#D4E2D6,#D4E2D6,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,955.0,instock,Solid Colours,S214,True
+S215,S215,Almond Latte,01 Basic,Solid,vector,S215.png,#AD9581,#AD9581,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1841.0,instock,Solid Colours,S215,True
+S216,S216,Paper White,01 Basic,Solid,vector,S216.png,#F0EEE9,#F0EEE9,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,799.0,instock,Solid Colours,S216,True
+S217,S217,Pastel Pink,01 Basic,Solid,vector,S217.png,#FCD1C8,#FCD1C8,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,117.0,instock,Solid Colours,S217,True
+S218,S218,Burgundy,01 Basic,Solid,vector,S218.png,#622324,#622324,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S219,S219,Lime,01 Basic,Solid,vector,S219.png,#9EAB56,#9EAB56,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S230,S230,Dark Turqouise,01 Basic,Solid,vector,S230.png,#577076,#577076,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,-36.0,outofstock,Solid Colours,S230,True
+S231,S231,Lava Stone Grey,01 Basic,Solid,vector,S231.png,#696766,#696766,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S232,S232,Bubblegum Pink,01 Basic,Solid,vector,S232.png,#F7ACB8,#F7ACB8,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S233,S233,Dark Green,01 Basic,Solid,vector,S233.png,#2B3F2A,#2B3F2A,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,604.0,instock,Solid Colours,S233,True
+S234,S234,Dark Brown,01 Basic,Solid,vector,S234.png,#524940,#524940,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S235,S235,Graphite Grey,01 Basic,Solid,vector,S235.png,#8B898A,#8B898A,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,375.0,instock,Solid Colours,S235,True
+S236,S236,Dove Grey,01 Basic,Solid,vector,S236.png,#A5A6A0,#A5A6A0,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S237,S237,Light Mauve,01 Basic,Solid,vector,S237.png,#B29492,#B29492,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,0.0,outofstock,Solid Colours,S237,True
+S238,S238,Dusty Rose,01 Basic,Solid,vector,S238.png,#CBA4A9,#CBA4A9,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S239,S239,Pistachio Green,01 Basic,Solid,vector,S239.png,#C0C3B9,#C0C3B9,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,303.0,instock,Solid Colours,S239,True
+S240,S240,Light Greige,01 Basic,Solid,vector,S240.png,#D8D1CA,#D8D1CA,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1735.0,instock,Solid Colours,S240,True
+S241,S241,Pale Yellow,01 Basic,Solid,vector,S241.png,#F8DEA0,#F8DEA0,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S242,S242,Space Blue,01 Basic,Solid,vector,S242.png,#425D6C,#425D6C,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,4.0,instock,Solid Colours,S242,True
+S243,S243,Soft White,01 Basic,Solid,vector,S243.png,#F7F8F9,#F7F8F9,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1834.0,instock,Solid Colours,S243,True
+S244,S244,Frost White,01 Basic,Solid,vector,S244.png,#EBE4E2,#EBE4E2,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S245,S245,Pearl White,01 Basic,Solid,vector,S245.png,#FFF7F1,#FFF7F1,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S246,S246,Desert Tan,01 Basic,Solid,vector,S246.png,#A29386,#A29386,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,67.0,instock,Solid Colours,S246,True
+S247,S247,Tan Brown,01 Basic,Solid,vector,S247.png,#8B786E,#8B786E,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S248,S248,Aqua Frost,01 Basic,Solid,vector,S248.png,#92A09D,#92A09D,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,149.0,instock,Solid Colours,S248,True
+S249,S249,Lily Lavender,01 Basic,Solid,vector,S249.png,#B8B7D3,#B8B7D3,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S250,S250,French Fuschia,01 Basic,Solid,vector,S250.png,#BA5C68,#BA5C68,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S251,S251,Teracotta,01 Basic,Solid,vector,S251.png,#9A6157,#9A6157,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S252,S252,Baked Clay,01 Basic,Solid,vector,S252.png,#7C4C43,#7C4C43,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,444.0,instock,Solid Colours,S252 (NEW),True
+S253,S253,Deep Brown,01 Basic,Solid,vector,S253.png,#433C39,#433C39,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S254,S254,Deep Blue,01 Basic,Solid,vector,S254.png,#1C2530,#1C2530,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S255,S255,Matte White,01 Basic,Solid,vector,S255.png,#F9F6F5,#F9F6F5,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,463.0,instock,Solid Colours,S255,True
+S256,S256,Matte Ivory,01 Basic,Solid,vector,S256.png,#DCD3C9,#DCD3C9,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S257,S257,Matte Sand,01 Basic,Solid,vector,S257.png,#D7CAC4,#D7CAC4,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1291.0,instock,Solid Colours,S257,True
+S258,S258,Sensual Grey,01 Basic,Solid,vector,S258.png,#BDB9B6,#BDB9B6,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S259,S259,Charcoal Grey,01 Basic,Solid,vector,S259.png,#514F4F,#514F4F,8,1.22 x 50 m,42.7,2135.0,Special Order,False,True,0.0,outofstock,Solid Colours,S259,True
+S260,S260,Evening Snow,01 Basic,Solid,vector,S260.png,#F3EDE9,#F3EDE9,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S261,S261,Pale Sage,01 Basic,Solid,vector,S261.png,#FFFFFF,#FFFFFF,8,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+S262,S262,Deep Maroon,01 Basic,Solid,vector,S262.png,#453439,#453439,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,282.0,instock,Solid Colours,S262 (NEW),True
+S263,S263,Cloud White,01 Basic,Solid,vector,S263.png,#F5EFEB,#F5EFEB,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,775.0,instock,Solid Colours,S263 (NEW),True
+S264,S264,Ash White,01 Basic,Solid,vector,S264.png,#EBE2DB,#EBE2DB,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,759.0,instock,Solid Colours,S264 (NEW),True
+S265,S265,Warm White,01 Basic,Solid,vector,S265.png,#FAF2ED,#FAF2ED,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1019.0,instock,Solid Colours,S265 (NEW),True
+S266,S266,Warm Ivory,01 Basic,Solid,vector,S266.png,#EEE0D5,#EEE0D5,8,1.22 x 50 m,28.88,1375.0,In Stock,True,True,327.0,instock,Solid Colours,S266 (NEW),True
+SMT01,SMT01,Ivory,01 Basic,Super Matt,vector,SMT01.png,#FEF9F0,#FEF9F0,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,1026.0,instock,Solid Colours,SMT01,True
+SMT02,SMT02,Cream,01 Basic,Super Matt,vector,SMT02.png,#F9F7ED,#F9F7ED,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,672.0,instock,Solid Colours,SMT02,True
+SMT03,SMT03,Beige,01 Basic,Super Matt,vector,SMT03.png,#D7CABA,#D7CABA,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,1585.0,instock,Solid Colours,SMT03,True
+SMT04,SMT04,Greige,01 Basic,Super Matt,vector,SMT04.png,#C5C4BE,#C5C4BE,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,643.0,instock,Solid Colours,SMT04,True
+SMT05,SMT05,Medium Grey,01 Basic,Super Matt,vector,SMT05.png,#8D8B8B,#8D8B8B,10,1.22 x 50 m,56.6,2830.0,Special Order,False,True,363.0,instock,Solid Colours,SMT05,True
+SMT06,SMT06,Dark Grey,01 Basic,Super Matt,vector,SMT06.png,#3A3A39,#3A3A39,10,1.22 x 50 m,56.6,2830.0,Special Order,False,True,0.0,outofstock,Solid Colours,SMT06,True
+SMT07,SMT07,Black,01 Basic,Super Matt,vector,SMT07.png,#232223,#232223,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,1811.0,instock,Solid Colours,SMT07,True
+SMT10,SMT10,Dark Green,01 Basic,Super Matt,vector,SMT10.png,#27352F,#27352F,10,1.22 x 50 m,56.6,2830.0,Special Order,False,False,,onbackorder,,,True
+SMT11,SMT11,Dark Blue,01 Basic,Super Matt,vector,SMT11.png,#323242,#323242,10,1.22 x 50 m,56.6,2830.0,Special Order,False,True,0.0,outofstock,Solid Colours,SMT11,True
+SMT12,SMT12,Light Greige,01 Basic,Super Matt,vector,SMT12.png,#DAD1C9,#DAD1C9,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,398.0,instock,Solid Colours,SMT12,True
+SMT13,SMT13,Light Grey,01 Basic,Super Matt,vector,SMT13.png,#CCCDCE,#CCCDCE,10,1.22 x 50 m,56.6,1550.0,Special Order,False,True,237.0,instock,Solid Colours,SMT13,True
+SMT14,SMT14,Warm Stone,01 Basic,Super Matt,vector,SMT14.png,#A09285,#A09285,10,1.22 x 50 m,56.6,2830.0,Special Order,False,False,,onbackorder,,,True
+SMT15,SMT15,Cacao,01 Basic,Super Matt,vector,SMT15.png,#6F6961,#6F6961,10,1.22 x 50 m,56.6,2830.0,Special Order,False,True,1.9,instock,Solid Colours,SMT15,True
+SMT16,SMT16,Frost White,01 Basic,Super Matt,vector,SMT16.png,#FAF6F1,#FAF6F1,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,916.0,instock,Solid Colours,SMT16,True
+SMT17,SMT17,Antique Ivory,01 Basic,Super Matt,vector,SMT17.png,#F3E6D5,#F3E6D5,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,633.0,instock,Solid Colours,SMT17,True
+SMT18,SMT18,Cool Grey,01 Basic,Super Matt,vector,SMT18.png,#9CA0A8,#9CA0A8,10,1.22 x 50 m,56.6,2830.0,Special Order,False,False,,onbackorder,,,True
+SMT20,SMT20,Pale Green,01 Basic,Super Matt,vector,SMT20.png,#B7C0B6,#B7C0B6,10,1.22 x 50 m,56.6,2830.0,Special Order,False,False,,onbackorder,,,True
+SMT21,SMT21,Rose Beige,01 Basic,Super Matt,vector,SMT21.png,#C6AAA0,#C6AAA0,10,1.22 x 50 m,56.6,2830.0,Special Order,False,True,5.0,instock,Solid Colours,SMT21,True
+SMT24,SMT24,White,01 Basic,Super Matt,vector,SMT24.png,#FFFFFF,#FFFFFF,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,90.0,instock,Solid Colours,SMT24,True
+CP202,CP202,White Shimmer,01 Basic,Texture,image,CP202.jpg,#E8E7E3,#F4F3EF,10,1.22 x 50 m,58.1,2905.0,Special Order,False,True,173.0,instock,Solid Colours,CP202,True
+HS204,HS204,White,01 Basic,Texture,image,HS204.jpg,#E4E7E2,#F0F4EE,10,1.22 x 50 m,35.81,1705.0,In Stock,True,True,634.0,instock,Solid Colours,HS204,True
+LM202,LM202,Pearl Grey,01 Basic,Texture,image,LM202.jpg,#E8E9E6,#F4F5F2,10,1.22 x 50 m,42.7,2135.0,Special Order,False,True,500.0,instock,Painted Woods + Woods,LM202,True
+LS102,LS102,White Textured,01 Basic,Texture,image,LS102.jpg,#E2E3E0,#EFF0ED,10,1.22 x 50 m,31.19,1485.0,In Stock,True,True,546.0,instock,Painted Woods + Woods,LS102,True
+LS103,LS103,Black Textured,01 Basic,Texture,image,LS103.jpg,#2B3435,#2B3435,10,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+LS104,LS104,White Forest,01 Basic,Texture,image,LS104.jpg,#E4E5E2,#F1F2EE,10,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+LS106,LS106,Matte Black,01 Basic,Texture,image,LS106.jpg,#2B3433,#2B3433,10,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+OGW02,OGW02,Noble Oak,02 Wood,Optical Grain Wood,image,OGW02.jpg,#4F3D2C,#4F3D2C,13,1.22 x 50 m,42.74,2035.0,In Stock,True,True,1006.0,instock,Painted Woods + Woods,OGW02 (NEW),True
+OGW03,OGW03,Noble Oak,02 Wood,Optical Grain Wood,image,OGW03.jpg,#3D3024,#3D3024,13,1.22 x 50 m,42.74,2035.0,In Stock,True,True,242.0,instock,Painted Woods + Woods,OGW03 (NEW),True
+OGW04,OGW04,Essence Teak,02 Wood,Optical Grain Wood,image,OGW04.jpg,#B1956F,#B1956F,14,1.22 x 50 m,42.74,2035.0,In Stock,True,True,910.0,instock,Painted Woods + Woods,OGW04 (NEW),True
+OGW05,OGW05,Essence Teak,02 Wood,Optical Grain Wood,image,OGW05.jpg,#876E51,#876E51,14,1.22 x 50 m,42.74,2035.0,In Stock,True,True,343.0,instock,Painted Woods + Woods,OGW05 (NEW),True
+SPW01,SPW01,Wild Oak,02 Wood,Origin Wood,image,SPW01.jpg,#937656,#997B59,33,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW03,SPW03,Oak,02 Wood,Origin Wood,image,SPW03.jpg,#B1976E,#B99E73,29,1.22 x 50 m,73.5,3675.0,Special Order,False,True,52.0,instock,Painted Woods + Woods,SPW03,True
+SPW05,SPW05,Vertical Wood,02 Wood,Origin Wood,image,SPW05.jpg,#C4B49B,#CDBCA2,28,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW09,SPW09,Spanish Oak,02 Wood,Origin Wood,image,SPW09.jpg,#6D4E2E,#6D4E2E,26,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW10,SPW10,Spanish Oak,02 Wood,Origin Wood,image,SPW10.jpg,#614224,#614124,26,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW11,SPW11,White Oak,02 Wood,Origin Wood,image,SPW11.jpg,#B5A078,#BEA87E,32,1.22 x 50 m,73.5,3675.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,SPW11,True
+SPW12,SPW12,White Oak,02 Wood,Origin Wood,image,SPW12.jpg,#9F8259,#A7885D,33,1.22 x 50 m,47.36,2255.0,In Stock,True,True,2.0,instock,Painted Woods + Woods,SPW12,True
+SPW13,SPW13,Oak,02 Wood,Origin Wood,image,SPW13.jpg,#BE9A60,#C8A165,34,1.22 x 50 m,47.36,2255.0,In Stock,True,True,297.0,instock,Painted Woods + Woods,SPW13,True
+SPW14,SPW14,Oak,02 Wood,Origin Wood,image,SPW14.jpg,#644D35,#695036,39,1.22 x 50 m,47.36,2255.0,In Stock,True,True,975.0,instock,Painted Woods + Woods,SPW14,True
+SPW15,SPW15,Velvet Oak,02 Wood,Origin Wood,image,SPW15.jpg,#C4A87A,#CEB080,30,1.22 x 50 m,47.36,2255.0,In Stock,True,True,644.0,instock,Painted Woods + Woods,SPW15,True
+SPW16,SPW16,Velvet Oak,02 Wood,Origin Wood,image,SPW16.jpg,#B3946A,#BD9B6F,33,1.22 x 50 m,47.36,2255.0,In Stock,True,True,1630.0,instock,Painted Woods + Woods,SPW16,True
+SPW17,SPW17,Wild Oak,02 Wood,Origin Wood,image,SPW17.jpg,#B69A6A,#BFA26F,30,1.22 x 50 m,73.5,3675.0,Special Order,False,True,1.0,instock,Painted Woods + Woods,SPW17,True
+SPW18,SPW18,Wild Oak,02 Wood,Origin Wood,image,SPW18.jpg,#AB8E65,#B49569,33,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW19,SPW19,Dark Oak,02 Wood,Origin Wood,image,SPW19.jpg,#82653E,#886940,38,1.22 x 50 m,47.36,2255.0,In Stock,True,True,98.0,instock,Painted Woods + Woods,SPW19,True
+SPW20,SPW20,Dark Oak,02 Wood,Origin Wood,image,SPW20.jpg,#7B5C3A,#81603C,38,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW22,SPW22,Solid Oak,02 Wood,Origin Wood,image,SPW22.jpg,#D7C7AB,#E3D2B4,27,1.22 x 50 m,47.36,2255.0,In Stock,True,True,723.0,instock,Painted Woods + Woods,SPW22,True
+SPW23,SPW23,Solid Oak,02 Wood,Origin Wood,image,SPW23.jpg,#B3A894,#BCB09B,31,1.22 x 50 m,47.36,2255.0,In Stock,True,True,461.0,instock,Painted Woods + Woods,SPW23,True
+SPW24,SPW24,Stripe Wood,02 Wood,Origin Wood,image,SPW24.jpg,#957851,#9C7E54,33,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW25,SPW25,Stripe Wood,02 Wood,Origin Wood,image,SPW25.jpg,#886F51,#8E7354,37,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW26,SPW26,Walnut,02 Wood,Origin Wood,image,SPW26.jpg,#8D6E4A,#93734D,33,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW27,SPW27,Walnut,02 Wood,Origin Wood,image,SPW27.jpg,#75573B,#7A5A3D,38,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW28,SPW28,Walnut,02 Wood,Origin Wood,image,SPW28.jpg,#462D21,#482E21,38,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW29,SPW29,Oak,02 Wood,Origin Wood,image,SPW29.jpg,#AC9F8F,#B4A696,31,1.22 x 50 m,47.36,2255.0,In Stock,True,True,337.0,instock,Painted Woods + Woods,SPW29,True
+SPW30,SPW30,Oak,02 Wood,Origin Wood,image,SPW30.jpg,#91795F,#977E62,32,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW38,SPW38,Siena Teak,02 Wood,Origin Wood,image,SPW38.jpg,#A58F72,#A58F72,27,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW39,SPW39,Siena Teak,02 Wood,Origin Wood,image,SPW39.jpg,#50433B,#50433B,27,1.22 x 50 m,47.36,2255.0,In Stock,True,True,71.0,instock,Painted Woods + Woods,SPW39 (NEW),True
+SPW40,SPW40,Elm,02 Wood,Origin Wood,image,SPW40.jpg,#856C50,#8B7053,37,1.22 x 50 m,73.5,3675.0,Special Order,False,True,11.0,instock,Painted Woods + Woods,SPW40,True
+SPW41,SPW41,Teak,02 Wood,Origin Wood,image,SPW41.jpg,#5D4B3D,#614E3F,38,1.22 x 50 m,47.36,2255.0,In Stock,True,True,946.0,instock,Painted Woods + Woods,SPW41,True
+SPW42,SPW42,Teak,02 Wood,Origin Wood,image,SPW42.jpg,#42403B,#45423D,40,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW43,SPW43,Oak,02 Wood,Origin Wood,image,SPW43.jpg,#D1C6B5,#DCD0BE,32,1.22 x 50 m,47.36,2255.0,In Stock,True,True,558.0,instock,Painted Woods + Woods,SPW43,True
+SPW44,SPW44,Oak,02 Wood,Origin Wood,image,SPW44.jpg,#827971,#887F76,40,1.22 x 50 m,47.36,2255.0,In Stock,True,True,666.0,instock,Painted Woods + Woods,SPW44,True
+SPW45,SPW45,Oak,02 Wood,Origin Wood,image,SPW45.jpg,#D9C6A8,#E4D1B0,27,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW46,SPW46,Oak,02 Wood,Origin Wood,image,SPW46.jpg,#D0B991,#DBC298,29,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW47,SPW47,Walnut,02 Wood,Origin Wood,image,SPW47.jpg,#5A432E,#5E462F,39,1.22 x 50 m,47.36,2255.0,In Stock,True,True,2996.0,instock,Painted Woods + Woods,SPW47,True
+SPW48,SPW48,Walnut,02 Wood,Origin Wood,image,SPW48.jpg,#45311C,#48321E,39,1.22 x 50 m,73.5,3675.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,SPW48,True
+SPW49,SPW49,Split Wood,02 Wood,Origin Wood,image,SPW49.jpg,#AB8E6C,#B49571,35,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW50,SPW50,Split Wood,02 Wood,Origin Wood,image,SPW50.jpg,#AA906A,#B2976F,35,1.22 x 50 m,73.5,3675.0,Special Order,False,True,123.0,instock,Painted Woods + Woods,SPW50,True
+SPW52,SPW52,Walnut,02 Wood,Origin Wood,image,SPW52.jpg,#795C3C,#7F613F,37,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW53,SPW53,Oak,02 Wood,Origin Wood,image,SPW53.jpg,#684E33,#6C5034,38,1.22 x 50 m,73.5,3675.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,SPW53,True
+SPW54,SPW54,Elder,02 Wood,Origin Wood,image,SPW54.jpg,#B5AD9D,#BEB6A5,31,1.22 x 50 m,47.36,2255.0,In Stock,True,True,2005.0,instock,Painted Woods + Woods,SPW54,True
+SPW55,SPW55,Elder,02 Wood,Origin Wood,image,SPW55.jpg,#40342E,#42352F,40,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW56,SPW56,Ash,02 Wood,Origin Wood,image,SPW56.jpg,#7D6040,#826342,37,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW57,SPW57,Ash,02 Wood,Origin Wood,image,SPW57.jpg,#514031,#544232,39,1.22 x 50 m,73.5,3675.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,SPW57,True
+SPW60,SPW60,Camel Oak,02 Wood,Origin Wood,image,SPW60.jpg,#72563A,#77593B,35,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW61,SPW61,Wash Oak,02 Wood,Origin Wood,image,SPW61.jpg,#DDD3BD,#E8DEC7,28,1.22 x 50 m,47.36,2255.0,In Stock,True,True,168.0,instock,Painted Woods + Woods,SPW61,True
+SPW62,SPW62,Wash Oak,02 Wood,Origin Wood,image,SPW62.jpg,#C2AE84,#CCB78B,30,1.22 x 50 m,47.36,2255.0,In Stock,True,True,316.0,instock,Painted Woods + Woods,SPW62,True
+SPW63,SPW63,Oak,02 Wood,Origin Wood,image,SPW63.jpg,#CFC09D,#DACBA5,29,1.22 x 50 m,73.5,3675.0,Special Order,False,True,4.0,instock,Painted Woods + Woods,SPW63,True
+SPW64,SPW64,Oak,02 Wood,Origin Wood,image,SPW64.jpg,#B19F7C,#BAA782,32,1.22 x 50 m,47.36,2255.0,In Stock,True,True,89.0,instock,Painted Woods + Woods,SPW64,True
+SPW65,SPW65,Oak,02 Wood,Origin Wood,image,SPW65.jpg,#6A5944,#6F5C46,39,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW66,SPW66,Elm,02 Wood,Origin Wood,image,SPW66.jpg,#C5A77E,#D0AF84,30,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW67,SPW67,Elm,02 Wood,Origin Wood,image,SPW67.jpg,#9A7B50,#A18153,34,1.22 x 50 m,47.36,2255.0,In Stock,True,True,1809.0,instock,Painted Woods + Woods,SPW67,True
+SPW68,SPW68,Oak,02 Wood,Origin Wood,image,SPW68.jpg,#CABDA5,#D5C7AD,28,1.22 x 50 m,73.5,3675.0,Special Order,False,True,-8.0,outofstock,Painted Woods + Woods,SPW68,True
+SPW69,SPW69,Oak,02 Wood,Origin Wood,image,SPW69.jpg,#907A5A,#98805E,35,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW70,SPW70,Eucalyptus,02 Wood,Origin Wood,image,SPW70.jpg,#A3947C,#AB9B82,36,1.22 x 50 m,47.36,2255.0,In Stock,True,True,460.0,instock,Painted Woods + Woods,SPW70,True
+SPW71,SPW71,Eucalyptus,02 Wood,Origin Wood,image,SPW71.jpg,#B6A78F,#BFAF96,31,1.22 x 50 m,47.36,2255.0,In Stock,True,True,1220.0,instock,Painted Woods + Woods,SPW71,True
+SPW72,SPW72,Walnut,02 Wood,Origin Wood,image,SPW72.jpg,#58483B,#5C4B3D,39,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW73,SPW73,Walnut,02 Wood,Origin Wood,image,SPW73.jpg,#9B8A71,#A29176,36,1.22 x 50 m,73.5,3675.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,SPW73,True
+SPW88,SPW88,Eden Oak,02 Wood,Origin Wood,image,SPW88.jpg,#BE9E74,#BE9E74,26,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW89,SPW89,Eden Oak,02 Wood,Origin Wood,image,SPW89.jpg,#755C3E,#755C3E,26,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW90,SPW90,African Teak,02 Wood,Origin Wood,image,SPW90.jpg,#D1BB9E,#DCC4A6,32,1.22 x 50 m,47.36,2255.0,In Stock,True,True,221.0,instock,Painted Woods + Woods,SPW90,True
+SPW91,SPW91,Oak,02 Wood,Origin Wood,image,SPW91.jpg,#C3AD86,#CDB68D,29,1.22 x 50 m,47.36,2255.0,In Stock,True,True,705.0,instock,Painted Woods + Woods,SPW91,True
+SPW92,SPW92,Oak,02 Wood,Origin Wood,image,SPW92.jpg,#474341,#4A4643,40,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW94,SPW94,Soft White Oak,02 Wood,Origin Wood,image,SPW94.jpg,#AE976E,#B79F73,32,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW95,SPW95,Eiche,02 Wood,Origin Wood,image,SPW95.jpg,#AE9467,#B79B6C,34,1.22 x 50 m,47.36,2255.0,In Stock,True,True,28.0,instock,Painted Woods + Woods,SPW95,True
+SPW96,SPW96,Eiche,02 Wood,Origin Wood,image,SPW96.jpg,#AB8958,#B4905C,34,1.22 x 50 m,73.5,3675.0,Special Order,False,True,361.0,instock,Painted Woods + Woods,SPW96,True
+SPW97,SPW97,Soft White Oak,02 Wood,Origin Wood,image,SPW97.jpg,#9E8F78,#A6967D,36,1.22 x 50 m,73.5,3675.0,Special Order,False,False,,onbackorder,,,True
+SPW98,SPW98,Oak,02 Wood,Origin Wood,image,SPW98.jpg,#CFBEA4,#DAC7AD,28,1.22 x 50 m,73.5,3675.0,Special Order,False,True,1.0,instock,Painted Woods + Woods,SPW98,True
+SPW99,SPW99,Oak,02 Wood,Origin Wood,image,SPW99.jpg,#A0907C,#A89782,36,1.22 x 50 m,47.36,2255.0,In Stock,True,True,562.0,instock,Painted Woods + Woods,SPW99,True
+ZX102,ZX102,Wizard Grain,02 Wood,Premium Wood,image,ZX102.jpg,#C1A074,#CAA879,41,1.22 x 50 m,50.0,2500.0,Special Order,False,True,7.0,instock,Painted Woods + Woods,BZ113 / ZX102,True
+ZX103,ZX103,Ash,02 Wood,Premium Wood,image,ZX103.jpg,#D4C2A9,#DECCB1,41,1.22 x 50 m,50.0,2500.0,Special Order,False,True,1.0,instock,Painted Woods + Woods,ZX103 (BZ122),True
+ZX104,ZX104,Teak,02 Wood,Premium Wood,image,ZX104.jpg,#957249,#9C774C,42,1.22 x 50 m,50.0,2500.0,Special Order,False,True,2.0,instock,Painted Woods + Woods,ZX104 (BZ793),True
+ZX107,ZX107,Oak,02 Wood,Premium Wood,image,ZX107.jpg,#D1B690,#DCBF97,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX108,ZX108,Oak,02 Wood,Premium Wood,image,ZX108.jpg,#C5A67F,#CFAE85,42,1.22 x 50 m,50.0,2500.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,ZX108,True
+ZX109,ZX109,Ash,02 Wood,Premium Wood,image,ZX109.jpg,#B29166,#BB986A,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX110,ZX110,Ash,02 Wood,Premium Wood,image,ZX110.jpg,#BD9667,#C69D6C,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX113,ZX113,Eiche,02 Wood,Premium Wood,image,ZX113.jpg,#CAB58D,#D4BE93,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX114,ZX114,Eiche,02 Wood,Premium Wood,image,ZX114.jpg,#B49973,#BEA078,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX116,ZX116,Amazahoue,02 Wood,Premium Wood,image,ZX116.jpg,#5C422B,#60442C,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX118,ZX118,Teak,02 Wood,Premium Wood,image,ZX118.jpg,#8C5F38,#92633A,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX119,ZX119,Walnut,02 Wood,Premium Wood,image,ZX119.jpg,#A0784E,#A97E52,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX124,ZX124,Oak,02 Wood,Premium Wood,image,ZX124.jpg,#846444,#8A6947,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX125,ZX125,Oak,02 Wood,Premium Wood,image,ZX125.jpg,#5A4E43,#5E5146,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX126,ZX126,Walnut,02 Wood,Premium Wood,image,ZX126.jpg,#634830,#674B31,42,1.22 x 50 m,38.12,1815.0,In Stock,True,True,248.0,instock,Painted Woods + Woods,ZX126 (PZ013),True
+ZX130,ZX130,Apple,02 Wood,Premium Wood,image,ZX130.jpg,#B08B58,#B9925C,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX133,ZX133,Oak,02 Wood,Premium Wood,image,ZX133.jpg,#543B29,#583E2A,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX134,ZX134,Oak,02 Wood,Premium Wood,image,ZX134.jpg,#302E29,#302D29,42,1.22 x 50 m,50.0,2500.0,Special Order,False,True,5.0,instock,Painted Woods + Woods,ZX134,True
+ZX141,ZX141,Ash,02 Wood,Premium Wood,image,ZX141.jpg,#453932,#473B33,42,1.22 x 50 m,50.0,2500.0,Special Order,False,True,209.0,instock,Painted Woods + Woods,ZX141 (NEW),True
+ZX144,ZX144,Oak,02 Wood,Premium Wood,image,ZX144.jpg,#BC9E7B,#C5A681,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX145,ZX145,Oak,02 Wood,Premium Wood,image,ZX145.jpg,#B58F61,#BE9565,41,1.22 x 50 m,50.0,2500.0,Special Order,False,True,225.0,instock,Painted Woods + Woods,XP105 / ZX145,True
+ZX149,ZX149,Walnut,02 Wood,Premium Wood,image,ZX149.jpg,#9A8166,#A1876A,42,1.22 x 50 m,38.12,1815.0,In Stock,True,True,987.0,instock,Painted Woods + Woods,ZX149 (XP118),True
+ZX152,ZX152,Oak,02 Wood,Premium Wood,image,ZX152.jpg,#CDAC7E,#D7B583,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX153,ZX153,Maple,02 Wood,Premium Wood,image,ZX153.jpg,#CCAE84,#D7B78A,41,1.22 x 50 m,38.12,1815.0,In Stock,True,True,1169.0,instock,Painted Woods + Woods,ZX153 (Z805S),True
+ZX154,ZX154,Oak,02 Wood,Premium Wood,image,ZX154.jpg,#967655,#9D7B58,42,1.22 x 50 m,50.0,2500.0,Special Order,False,True,24.0,instock,Painted Woods + Woods,ZX154,True
+ZX155,ZX155,Cherry,02 Wood,Premium Wood,image,ZX155.jpg,#C3A885,#CDB18B,41,1.22 x 50 m,50.0,2500.0,Special Order,False,True,200.0,instock,Painted Woods + Woods,ZX155,True
+ZX156,ZX156,Ash,02 Wood,Premium Wood,image,ZX156.jpg,#B7956B,#C09C70,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX157,ZX157,Oak,02 Wood,Premium Wood,image,ZX157.jpg,#3D332B,#3F352D,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX158,ZX158,Walnut,02 Wood,Premium Wood,image,ZX158.jpg,#745A43,#795E46,42,1.22 x 50 m,50.0,2500.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,ZX158,True
+ZX159,ZX159,Ash,02 Wood,Premium Wood,image,ZX159.jpg,#CFAB82,#DAB388,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX161,ZX161,Oak,02 Wood,Premium Wood,image,ZX161.jpg,#E7DBCB,#F3E6D6,41,1.22 x 50 m,38.12,1815.0,In Stock,True,True,736.0,instock,Painted Woods + Woods,ZX161 (Z850S),True
+ZX162,ZX162,Oak,02 Wood,Premium Wood,image,ZX162.jpg,#D5B996,#E0C39E,41,1.22 x 50 m,38.12,1815.0,In Stock,True,True,1401.0,instock,Painted Woods + Woods,ZX162 (Z851S),True
+ZX163,ZX163,Oak,02 Wood,Premium Wood,image,ZX163.jpg,#D1AF83,#DCB889,41,1.22 x 50 m,50.0,2500.0,Special Order,False,True,-41.0,outofstock,Painted Woods + Woods,ZX163,True
+ZX165,ZX165,Oak,02 Wood,Premium Wood,image,ZX165.jpg,#B4A891,#BDB098,41,1.22 x 50 m,38.12,1815.0,In Stock,True,True,793.0,instock,Painted Woods + Woods,ZX165 (Z858S),True
+ZX166,ZX166,Oak,02 Wood,Premium Wood,image,ZX166.jpg,#A3947D,#AB9B83,41,1.22 x 50 m,50.0,2500.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,ZX166 (Z859S),True
+ZX169,ZX169,Pine,02 Wood,Premium Wood,image,ZX169.jpg,#A58563,#AD8C67,42,1.22 x 50 m,50.0,2500.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,ZX169,True
+ZX171,ZX171,Oak,02 Wood,Premium Wood,image,ZX171.jpg,#D7C8B7,#E2D2C0,41,1.22 x 50 m,38.12,1815.0,In Stock,True,True,1482.0,instock,Painted Woods + Woods,ZX171,True
+ZX172,ZX172,Oak,02 Wood,Premium Wood,image,ZX172.jpg,#BE9F7A,#C7A780,42,1.22 x 50 m,50.0,2500.0,Special Order,False,True,95.0,instock,Painted Woods + Woods,ZX172,True
+ZX174,ZX174,Oak,02 Wood,Premium Wood,image,ZX174.jpg,#5D514A,#61544C,42,1.22 x 50 m,38.12,1815.0,In Stock,True,True,1238.0,instock,Painted Woods + Woods,ZX174,True
+ZX175,ZX175,Walnut,02 Wood,Premium Wood,image,ZX175.jpg,#4D3C29,#503E2A,42,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX176,ZX176,Ash,02 Wood,Premium Wood,image,ZX176.jpg,#B79F86,#BFA78C,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX178,ZX178,Teak,02 Wood,Premium Wood,image,ZX178.jpg,#B79E7C,#BFA682,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX179,ZX179,Heimish Oak,02 Wood,Premium Wood,image,ZX179.jpg,#C0A985,#C9B28C,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+ZX180,ZX180,Washed Oak,02 Wood,Premium Wood,image,ZX180.jpg,#AC9C81,#B4A387,41,1.22 x 50 m,50.0,2500.0,Special Order,False,False,,onbackorder,,,True
+W011,W011,Wash Oak,02 Wood,Standard Wood,image,W011.jpg,#DACAB1,#E5D5BA,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1664.0,instock,Painted Woods + Woods,W011,True
+W012,W012,Oak,02 Wood,Standard Wood,image,W012.jpg,#DDCCB3,#E9D7BC,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W015,W015,Ash,02 Wood,Standard Wood,image,W015.jpg,#C2A680,#CBAD86,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,543.0,instock,Painted Woods + Woods,W015,True
+W016,W016,Walnut,02 Wood,Standard Wood,image,W016.jpg,#433A34,#453C36,45,1.22 x 50 m,42.7,2135.0,Special Order,False,True,136.0,instock,Painted Woods + Woods,W016 (NEW),True
+W017,W017,Eucalyptus,02 Wood,Standard Wood,image,W017.jpg,#C2A98B,#C2A98B,43,1.22 x 50 m,28.88,1375.0,In Stock,True,True,587.0,instock,Painted Woods + Woods,W017 (NEW),True
+W018,W018,Eucalyptus,02 Wood,Standard Wood,image,W018.jpg,#99876F,#99876F,43,1.22 x 50 m,28.88,1375.0,In Stock,True,True,628.0,instock,Painted Woods + Woods,W018 (NEW),True
+W134,W134,Maple,02 Wood,Standard Wood,image,W134.jpg,#BC996D,#C6A172,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W141,W141,Walnut,02 Wood,Standard Wood,image,W141.jpg,#A0784F,#A87E53,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,533.0,instock,Painted Woods + Woods,W141,True
+W171,W171,Maple,02 Wood,Standard Wood,image,W171.jpg,#824B2C,#894F2D,45,1.22 x 50 m,42.7,2135.0,Special Order,False,True,12.0,instock,Painted Woods + Woods,W171,True
+W177,W177,Africa Limba,02 Wood,Standard Wood,image,W177.jpg,#A47241,#AD7743,45,1.22 x 50 m,42.7,2135.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,W177,True
+W183,W183,Pine,02 Wood,Standard Wood,image,W183.jpg,#B37C40,#BC8242,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W189,W189,Maple,02 Wood,Standard Wood,image,W189.jpg,#C4B49E,#CEBDA6,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W192,W192,Castagno Cadduci,02 Wood,Standard Wood,image,W192.jpg,#927D60,#9A8364,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W196,W196,Ash,02 Wood,Standard Wood,image,W196.jpg,#B3A490,#BCAC97,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W198,W198,Oak,02 Wood,Standard Wood,image,W198.jpg,#D2C5B6,#DDCFBF,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1046.0,instock,Painted Woods + Woods,W198,True
+W200,W200,Maple,02 Wood,Standard Wood,image,W200.jpg,#BEA178,#C8A97E,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W206,W206,Walnut,02 Wood,Standard Wood,image,W206.jpg,#75583A,#7B5C3C,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1552.0,instock,Painted Woods + Woods,W206,True
+W207,W207,Walnut,02 Wood,Standard Wood,image,W207.jpg,#322117,#322117,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,479.0,instock,Painted Woods + Woods,W207,True
+W260,W260,Walnut,02 Wood,Standard Wood,image,W260.jpg,#5B3E2A,#5F412B,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W301,W301,Castagno Cadduci,02 Wood,Standard Wood,image,W301.jpg,#C1A27D,#CBAB83,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W302,W302,Walnut,02 Wood,Standard Wood,image,W302.jpg,#724C2C,#774F2E,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W351,W351,White Oak,02 Wood,Standard Wood,image,W351.jpg,#BCA382,#C5AC88,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,384.0,instock,Painted Woods + Woods,W351,True
+W357,W357,Ash,02 Wood,Standard Wood,image,W357.jpg,#977C5A,#9E825E,44,1.22 x 50 m,42.7,2135.0,Special Order,False,True,3.0,instock,Painted Woods + Woods,W357,True
+W375,W375,Wash Oak,02 Wood,Standard Wood,image,W375.jpg,#B2A287,#BBAA8E,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,500.0,instock,Painted Woods + Woods,W375,True
+W376,W376,Walnut,02 Wood,Standard Wood,image,W376.jpg,#7A5336,#805638,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1858.0,instock,Painted Woods + Woods,W376,True
+W388,W388,Ash,02 Wood,Standard Wood,image,W388.jpg,#A78251,#B08855,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,335.0,instock,Painted Woods + Woods,W388,True
+W389,W389,Ash,02 Wood,Standard Wood,image,W389.jpg,#E1CEB0,#EDD9B9,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W390,W390,Ash,02 Wood,Standard Wood,image,W390.jpg,#C2A270,#CCAA75,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W401,W401,Maple,02 Wood,Standard Wood,image,W401.jpg,#B8986C,#C19F71,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W402,W402,Riven Oak,02 Wood,Standard Wood,image,W402.jpg,#C4AD8A,#C4AD8A,43,1.22 x 50 m,28.88,1375.0,In Stock,True,True,405.0,instock,Painted Woods + Woods,W402 (NEW),True
+W403,W403,Riven Oak,02 Wood,Standard Wood,image,W403.jpg,#B59D7A,#B59D7A,43,1.22 x 50 m,28.88,1375.0,In Stock,True,True,473.0,instock,Painted Woods + Woods,W403 (NEW),True
+W504,W504,Noce,02 Wood,Standard Wood,image,W504.jpg,#B79564,#C19D68,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W508,W508,Noce,02 Wood,Standard Wood,image,W508.jpg,#925C2A,#99602B,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W528,W528,Noce,02 Wood,Standard Wood,image,W528.jpg,#B7986B,#C19F70,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W531,W531,Sycamore,02 Wood,Standard Wood,image,W531.jpg,#C6A068,#D1A86C,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W538,W538,Pine,02 Wood,Standard Wood,image,W538.jpg,#CA9F61,#D5A765,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,314.0,instock,Painted Woods + Woods,W538,True
+W632,W632,Castagno Cadduci,02 Wood,Standard Wood,image,W632.jpg,#987A54,#A08058,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,169.0,instock,Painted Woods + Woods,W632,True
+W638,W638,Oak,02 Wood,Standard Wood,image,W638.jpg,#433427,#453528,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W681,W681,Walnut,02 Wood,Standard Wood,image,W681.jpg,#6B5336,#705737,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W705,W705,Noce,02 Wood,Standard Wood,image,W705.jpg,#373330,#393531,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,2641.0,instock,Painted Woods + Woods,W705,True
+W722,W722,Noce,02 Wood,Standard Wood,image,W722.jpg,#3C2B22,#3E2D23,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,883.0,instock,Painted Woods + Woods,W722,True
+W727,W727,RoseWood,02 Wood,Standard Wood,image,W727.jpg,#765D49,#7C614C,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W741,W741,Soft Noche,02 Wood,Standard Wood,image,W741.jpg,#D3BA91,#D3BA91,43,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W742,W742,Soft Noche,02 Wood,Standard Wood,image,W742.jpg,#A6885F,#A6885F,43,1.22 x 50 m,28.88,1375.0,In Stock,True,True,650.0,instock,Painted Woods + Woods,W742 (NEW),True
+W816,W816,Cherry,02 Wood,Standard Wood,image,W816.jpg,#543A27,#573C28,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W823,W823,Noce,02 Wood,Standard Wood,image,W823.jpg,#433223,#463324,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W842,W842,Maple,02 Wood,Standard Wood,image,W842.jpg,#A6703B,#AE753D,45,1.22 x 50 m,42.7,2135.0,Special Order,False,True,305.0,instock,Painted Woods + Woods,W842,True
+W845,W845,Sycamore,02 Wood,Standard Wood,image,W845.jpg,#BF9157,#C9985B,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W863,W863,Oak,02 Wood,Standard Wood,image,W863.jpg,#D6C5A5,#E1CFAD,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1329.0,instock,Painted Woods + Woods,W863,True
+W864,W864,Oak,02 Wood,Standard Wood,image,W864.jpg,#A67E4F,#AE8452,45,1.22 x 50 m,42.7,2135.0,Special Order,False,True,2.0,instock,Painted Woods + Woods,W864,True
+W867,W867,Oak,02 Wood,Standard Wood,image,W867.jpg,#A68458,#AF8B5C,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W870,W870,Teak,02 Wood,Standard Wood,image,W870.jpg,#A78153,#B08857,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W871,W871,Oak,02 Wood,Standard Wood,image,W871.jpg,#D6C7B1,#E2D1BA,44,1.22 x 50 m,42.7,2135.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,W871,True
+W874,W874,Oak,02 Wood,Standard Wood,image,W874.jpg,#CAAB7E,#D4B384,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,953.0,instock,Painted Woods + Woods,W874,True
+W877,W877,Elm,02 Wood,Standard Wood,image,W877.jpg,#C3A77C,#CDB082,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W878,W878,Oak,02 Wood,Standard Wood,image,W878.jpg,#AD916D,#B69972,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,115.0,instock,Painted Woods + Woods,W878,True
+W879,W879,Ash,02 Wood,Standard Wood,image,W879.jpg,#CBAF82,#D5B989,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W880,W880,Ash,02 Wood,Standard Wood,image,W880.jpg,#836A4F,#8A6F52,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W881,W881,Ash,02 Wood,Standard Wood,image,W881.jpg,#B49A6F,#BDA274,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,590.0,instock,Painted Woods + Woods,W881 (NEW),True
+W882,W882,Burl Wood,02 Wood,Standard Wood,image,W882.jpg,#9F9288,#A7998E,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W883,W883,Burl Wood,02 Wood,Standard Wood,image,W883.jpg,#282421,#272421,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W933,W933,Oak,02 Wood,Standard Wood,image,W933.jpg,#CCBCA7,#D7C6AF,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W935,W935,Maple,02 Wood,Standard Wood,image,W935.jpg,#C2AC93,#CCB59B,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,1603.0,instock,Painted Woods + Woods,W935,True
+W937,W937,Oak,02 Wood,Standard Wood,image,W937.jpg,#C6B296,#D0BB9D,44,1.22 x 50 m,42.7,2135.0,Special Order,False,True,18.0,instock,Painted Woods + Woods,W937,True
+W942,W942,Oak,02 Wood,Standard Wood,image,W942.jpg,#99764B,#A17C4E,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W943,W943,Oak,02 Wood,Standard Wood,image,W943.jpg,#8D6B46,#947049,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,788.0,instock,Painted Woods + Woods,W943,True
+W946,W946,Cedar,02 Wood,Standard Wood,image,W946.jpg,#CEBFAE,#D8C9B7,44,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W949,W949,Oak,02 Wood,Standard Wood,image,W949.jpg,#A48055,#AC8658,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,463.0,instock,Painted Woods + Woods,W949,True
+W952,W952,Teak,02 Wood,Standard Wood,image,W952.jpg,#A2825F,#AA8863,44,1.22 x 50 m,28.88,1375.0,In Stock,True,True,536.0,instock,Painted Woods + Woods,W952,True
+W953,W953,Teak,02 Wood,Standard Wood,image,W953.jpg,#856B51,#8A6F54,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W954,W954,Walnut,02 Wood,Standard Wood,image,W954.jpg,#6A5D4F,#6E6151,45,1.22 x 50 m,28.88,1375.0,In Stock,True,True,230.0,instock,Painted Woods + Woods,W954 (NEW),True
+W955,W955,Walnut,02 Wood,Standard Wood,image,W955.jpg,#473B31,#493D32,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W956,W956,Walnut,02 Wood,Standard Wood,image,W956.jpg,#332E2A,#332E2A,45,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+W957,W957,Velvet Oak,02 Wood,Standard Wood,image,W957.jpg,#987651,#987651,43,1.22 x 50 m,28.88,1375.0,In Stock,True,True,32.0,instock,Painted Woods + Woods,W957 (NEW),True
+W958,W958,Velvet Oak,02 Wood,Standard Wood,image,W958.jpg,#8D6F4F,#8D6F4F,43,1.22 x 50 m,42.7,2135.0,Special Order,False,False,,onbackorder,,,True
+LW101,LW101,Denver Oak,02 Wood,Wood Palette,image,LW101.jpg,#AE8F65,#B69669,12,1.22 x 50 m,78.5,3925.0,Special Order,False,True,2.0,instock,Painted Woods + Woods,LW101,True
+LW102,LW102,Denver Oak,02 Wood,Wood Palette,image,LW102.jpg,#A3845A,#AB8A5D,12,1.22 x 50 m,56.6,2695.0,In Stock,True,True,2631.0,instock,Painted Woods + Woods,LW102,True
+LW103,LW103,Denver Oak,02 Wood,Wood Palette,image,LW103.jpg,#8E7D69,#94826D,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW104,LW104,Sonama Oak,02 Wood,Wood Palette,image,LW104.jpg,#977651,#9E7B54,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW105,LW105,Sonama Oak,02 Wood,Wood Palette,image,LW105.jpg,#87674B,#8D6B4D,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW106,LW106,Sonama Oak,02 Wood,Wood Palette,image,LW106.jpg,#69523D,#6D553F,12,1.22 x 50 m,56.6,2695.0,In Stock,True,True,2700.0,instock,Painted Woods + Woods,LW106,True
+LW107,LW107,Timber Oak,02 Wood,Wood Palette,image,LW107.jpg,#8E7A64,#948068,12,1.22 x 50 m,56.6,2695.0,In Stock,True,True,600.0,instock,Painted Woods + Woods,LW107,True
+LW108,LW108,Timber Oak,02 Wood,Wood Palette,image,LW108.jpg,#886643,#8E6A45,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW109,LW109,Timber Oak,02 Wood,Wood Palette,image,LW109.jpg,#745B46,#795E49,12,1.22 x 50 m,56.6,2695.0,In Stock,True,True,674.0,instock,Painted Woods + Woods,LW109,True
+LW110,LW110,Nordic Oak,02 Wood,Wood Palette,image,LW110.jpg,#B69D7F,#BFA585,12,1.22 x 50 m,78.5,3925.0,Special Order,False,True,50.0,instock,Painted Woods + Woods,LW110,True
+LW111,LW111,Nordic Oak,02 Wood,Wood Palette,image,LW111.jpg,#A68F79,#AE967E,12,1.22 x 50 m,78.5,3925.0,Special Order,False,True,9.0,instock,Painted Woods + Woods,LW111,True
+LW112,LW112,Nordic Oak,02 Wood,Wood Palette,image,LW112.jpg,#775E4A,#7C624C,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW113,LW113,Alpine Oak,02 Wood,Wood Palette,image,LW113.jpg,#A3865F,#AB8B63,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW114,LW114,Alpine Oak,02 Wood,Wood Palette,image,LW114.jpg,#967654,#9D7B58,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW115,LW115,Alpine Oak,02 Wood,Wood Palette,image,LW115.jpg,#745E48,#79614A,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW116,LW116,Amber Oak,02 Wood,Wood Palette,image,LW116.jpg,#9D7E5B,#A4835E,12,1.22 x 50 m,56.6,2695.0,In Stock,True,True,24.0,instock,Painted Woods + Woods,LW116,True
+LW117,LW117,Amber Oak,02 Wood,Wood Palette,image,LW117.jpg,#86674B,#8C6B4E,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW118,LW118,Ebony Oak,02 Wood,Wood Palette,image,LW118.jpg,#635041,#675343,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW119,LW119,Ebony Oak,02 Wood,Wood Palette,image,LW119.jpg,#584739,#5B4A3B,12,1.22 x 50 m,78.5,3925.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,LW119,True
+LW120,LW120,Ebony Oak,02 Wood,Wood Palette,image,LW120.jpg,#35312E,#35312E,12,1.22 x 50 m,56.6,2695.0,In Stock,True,True,1232.0,instock,Painted Woods + Woods,LW120,True
+LW121,LW121,Arden Oak,02 Wood,Wood Palette,image,LW121.jpg,#8F795C,#8F795C,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW122,LW122,Arden Oak,02 Wood,Wood Palette,image,LW122.jpg,#55422A,#55422A,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW123,LW123,Arden Oak,02 Wood,Wood Palette,image,LW123.jpg,#413423,#413423,12,1.22 x 50 m,78.5,3925.0,Special Order,False,True,0.0,outofstock,Painted Woods + Woods,LW123,True
+LW201,LW201,Noa Oak,02 Wood,Wood Palette,image,LW201.jpg,#BBA37B,#BBA37B,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW202,LW202,Noa Oak,02 Wood,Wood Palette,image,LW202.jpg,#AE8D62,#AE8D62,12,1.22 x 50 m,78.5,3925.0,Special Order,False,False,,onbackorder,,,True
+LW203,LW203,Noa Oak,02 Wood,Wood Palette,image,LW203.jpg,#99805D,#99805D,12,1.22 x 50 m,56.6,2695.0,In Stock,True,True,163.0,instock,Painted Woods + Woods,LW203 (NEW),True
+OGW01,OGW01,Noble Oak,02 Wood,Wood Palette,image,OGW01.jpg,#795F3E,#795F3E,12,1.22 x 50 m,42.74,2035.0,In Stock,True,True,942.0,instock,Painted Woods + Woods,OGW01 (NEW),True
+OGW06,OGW06,Essence Teak,02 Wood,Wood Palette,image,OGW06.jpg,#5D4B38,#5D4B38,12,1.22 x 50 m,42.74,2035.0,In Stock,True,True,103.0,instock,Painted Woods + Woods,OGW06 (NEW),True
+APZ05,APZ05,Gold Crack,03 Natural Surface,Gold,image,APZ05.jpg,#6E5F1E,#736322,51,1.22 x 50 m,65.0,3250.0,Special Order,False,True,100.0,instock,Metals,APZ05,True
+APZ18,APZ18,Gold Crack,03 Natural Surface,Gold,image,APZ18.jpg,#937E43,#9B8546,51,1.22 x 50 m,65.0,3250.0,Special Order,False,True,223.0,instock,Metals,APZ18,True
+APZ25,APZ25,Golden Fabric,03 Natural Surface,Gold,image,APZ25.jpg,#8F6E1D,#967321,51,1.22 x 50 m,65.0,3250.0,Special Order,False,False,,onbackorder,,,True
+APZ26,APZ26,Golden Fabric,03 Natural Surface,Gold,image,APZ26.jpg,#98783D,#A07E40,51,1.22 x 50 m,65.0,3250.0,Special Order,False,False,,onbackorder,,,True
+NF901,NF901,Dark Grey,03 Natural Surface,Natural Fabric,image,NF901.jpg,#3A4A56,#3A4A56,47,1.22 x 30 m,137.67,4130.0,Special Order,False,False,,onbackorder,,,True
+NF902,NF902,Grey,03 Natural Surface,Natural Fabric,image,NF902.jpg,#99ACB0,#99ACB0,47,1.22 x 30 m,137.67,4130.0,Special Order,False,False,,onbackorder,,,True
+NF903,NF903,Beige,03 Natural Surface,Natural Fabric,image,NF903.jpg,#B4A992,#B4A992,47,1.22 x 30 m,137.67,4130.0,Special Order,False,True,14.0,instock,Fabric + Leather,NF903 (30m),True
+NF904,NF904,Oxford Twill,03 Natural Surface,Natural Fabric,image,NF904.jpg,#DFD9CB,#E0DACB,47,1.22 x 30 m,137.67,4130.0,Special Order,False,True,-5.0,outofstock,Fabric + Leather,NF904 (30m),True
+NF905,NF905,Oxford Twill,03 Natural Surface,Natural Fabric,image,NF905.jpg,#A09985,#A09985,47,1.22 x 30 m,137.67,4130.0,Special Order,False,True,1.0,instock,Fabric + Leather,NF905 (30m),True
+NF906,NF906,Oxford Twill,03 Natural Surface,Natural Fabric,image,NF906.jpg,#625A53,#625A52,47,1.22 x 30 m,137.67,4130.0,Special Order,False,False,,onbackorder,,,True
+RF001,RF001,Linen,03 Natural Surface,Real Fabric,image,RF001.jpg,#C0C2BB,#C0C2BB,48,1.22 x 30 m,110.0,3300.0,Special Order,False,True,1.0,instock,Fabric + Leather,RF001 (30m),True
+RF008,RF008,Herringbone,03 Natural Surface,Real Fabric,image,RF008.jpg,#D4D3C4,#D4D3C4,48,1.22 x 30 m,92.4,2640.0,In Stock,True,True,182.0,instock,Fabric + Leather,RF008 (30m),True
+RF010,RF010,Grey,03 Natural Surface,Real Fabric,image,RF010.jpg,#BFC4BD,#BFC4BD,48,1.22 x 30 m,92.4,2640.0,In Stock,True,True,1015.0,instock,Fabric + Leather,RF010 (30m),True
+RF011,RF011,Cream,03 Natural Surface,Real Fabric,image,RF011.jpg,#D2D4C4,#D2D4C4,48,1.22 x 30 m,92.4,2640.0,In Stock,True,True,1680.0,instock,Fabric + Leather,RF011 (30m),True
+NS601,NS601,Bronze Patina,03 Natural Surface,Real Metal,image,NS601.jpg,#3D423B,#3D423B,51,1.22 x 50 m,53.0,2650.0,Special Order,False,False,,onbackorder,,,True
+NS602,NS602,Black Patina,03 Natural Surface,Real Metal,image,NS602.jpg,#27332E,#27332E,51,1.22 x 50 m,53.0,2650.0,Special Order,False,True,0.0,outofstock,Metals,NS602,True
+RM002,RM002,Brushed Black Steel,03 Natural Surface,Real Metal,image,RM002.jpg,#6C7F7D,#6C7F7D,51,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+RM003,RM003,Brushed Bronze,03 Natural Surface,Real Metal,image,RM003.jpg,#785F28,#785F28,51,1.22 x 50 m,58.1,2905.0,Special Order,False,True,2.0,instock,Metals,RM003,True
+RM004,RM004,Brushed Silver,03 Natural Surface,Real Metal,image,RM004.jpg,#6D807F,#6D807F,51,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+RM005,RM005,Dark Steel,03 Natural Surface,Real Metal,image,RM005.jpg,#667574,#667575,51,1.22 x 50 m,58.1,2905.0,Special Order,False,True,11.0,instock,Metals,RM005,True
+RM007,RM007,Gold,03 Natural Surface,Real Metal,image,RM007.jpg,#AE9765,#AD9765,51,1.22 x 50 m,38.12,1815.0,In Stock,True,True,530.0,instock,Metals,RM007,True
+RM008,RM008,Brushed Bronze,03 Natural Surface,Real Metal,image,RM008.jpg,#392F1D,#392F1D,51,1.22 x 50 m,38.12,1815.0,In Stock,True,True,820.0,instock,Metals,RM008,True
+RM009,RM009,Brushed Gunmetal,03 Natural Surface,Real Metal,image,RM009.jpg,#181C1A,#181B1A,51,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+RM011,RM011,Copper,03 Natural Surface,Real Metal,image,RM011.jpg,#5C5044,#5C5044,51,1.22 x 50 m,38.12,1815.0,In Stock,True,True,110.0,instock,Metals,RM011,True
+RM012,RM012,Brushed Platinum,03 Natural Surface,Real Metal,image,RM012.jpg,#9EA39C,#9EA39C,51,1.22 x 50 m,38.12,1815.0,In Stock,True,True,121.0,instock,Metals,RM012,True
+RM015,RM015,Brushed Titanium,03 Natural Surface,Real Metal,image,RM015.jpg,#959C92,#9DA499,51,1.22 x 50 m,58.1,2905.0,Special Order,False,True,0.0,outofstock,Metals,RM015,True
+RM051,RM051,Cross Hairline Metal,03 Natural Surface,Real Metal,image,RM051.jpg,#C3C1B5,#C3C1B5,51,1.22 x 50 m,38.12,1815.0,In Stock,True,True,598.0,instock,Metals,RM051,True
+SF801,SF801,Chevron Fabric,03 Natural Surface,Soft Fabric,image,SF801.jpg,#C2C5B1,#C2C5B1,46,1.22 x 50m,38.12,1815.0,In Stock,True,True,122.0,instock,Fabric + Leather,SF801 (NEW),True
+SF802,SF802,Chevron Fabric,03 Natural Surface,Soft Fabric,image,SF802.jpg,#A1A799,#A1A799,46,1.22 x 50m,38.12,1815.0,In Stock,True,True,145.0,instock,Fabric + Leather,SF802 (NEW),True
+SF803,SF803,Woven Fabric,03 Natural Surface,Soft Fabric,image,SF803.jpg,#C4C8B1,#C4C8B1,46,1.22 x 50m,38.12,1815.0,In Stock,True,True,503.0,instock,Fabric + Leather,SF803 (NEW),True
+SF804,SF804,Woven Fabric,03 Natural Surface,Soft Fabric,image,SF804.jpg,#8D9684,#8D9684,46,1.22 x 50m,38.12,1815.0,In Stock,True,True,436.0,instock,Fabric + Leather,SF804 (NEW),True
+SL401,SL401,Soft Leather,03 Natural Surface,Soft Leather,image,SL401.jpg,#DBDCD0,#DBDCD0,48,1.22 x 50m,38.12,1815.0,In Stock,True,True,346.0,instock,Fabric + Leather,SL401 (NEW),True
+SL402,SL402,Soft Leather,03 Natural Surface,Soft Leather,image,SL402.jpg,#B6BBAF,#B6BBAF,48,1.22 x 50m,38.12,1815.0,In Stock,True,True,392.0,instock,Fabric + Leather,SL402 (NEW),True
+SL403,SL403,Soft Leather,03 Natural Surface,Soft Leather,image,SL403.jpg,#635038,#625038,48,1.22 x 50m,38.12,1815.0,In Stock,True,True,450.0,instock,Fabric + Leather,SL403 (NEW),True
+SL404,SL404,Soft Leather,03 Natural Surface,Soft Leather,image,SL404.jpg,#373425,#373425,48,1.22 x 50m,38.12,1815.0,In Stock,True,True,520.0,instock,Fabric + Leather,SL404 (NEW),True
+UMI01,UMI01,Shiny Rookie,03 Natural Surface,UMI,image,UMI01.jpg,#84979D,#8B9EA5,50,1.22 x 50 m,95.0,4750.0,Special Order,False,True,140.0,instock,Metals,UMI01,True
+UMI02,UMI02,Shiny Rookie,03 Natural Surface,UMI,image,UMI02.jpg,#8B9A99,#92A1A0,50,1.22 x 50 m,86.63,4125.0,In Stock,True,True,118.0,instock,Metals,UMI02,True
+UMI05,UMI05,Hologram,03 Natural Surface,UMI,image,UMI05.jpg,#C7D0EB,#D1DBF7,50,1.22 x 50 m,86.63,4125.0,In Stock,True,True,124.0,instock,Metals,UMI05,True
+UMI06,UMI06,Hologram,03 Natural Surface,UMI,image,UMI06.jpg,#BECBE2,#C8D5EE,50,1.22 x 50 m,95.0,4750.0,Special Order,False,True,7.0,instock,Metals,UMI06,True
+VM901,VM901,Chrome,03 Natural Surface,Velvet Metal,image,VM901.jpg,#6C7773,#6C7773,49,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+VM902,VM902,Grey,03 Natural Surface,Velvet Metal,image,VM902.jpg,#7D8883,#7D8883,50,1.22 x 50 m,42.74,2035.0,In Stock,True,True,108.0,instock,Metals,VM902,True
+VM903,VM903,Silver,03 Natural Surface,Velvet Metal,image,VM903.jpg,#899DA4,#899DA4,50,1.22 x 50 m,42.74,2035.0,In Stock,True,True,50.0,instock,Metals,VM903,True
+VM904,VM904,Sky Blue,03 Natural Surface,Velvet Metal,image,VM904.jpg,#7C9CB5,#7C9CB5,50,1.22 x 50 m,42.74,2035.0,In Stock,True,True,202.0,instock,Metals,VM904,True
+VM905,VM905,Champagne,03 Natural Surface,Velvet Metal,image,VM905.jpg,#97958C,#97958B,49,1.22 x 50 m,42.74,2035.0,In Stock,True,True,482.0,instock,Metals,VM905,True
+VM906,VM906,Rose Gold,03 Natural Surface,Velvet Metal,image,VM906.jpg,#AA9591,#AA9591,49,1.22 x 50 m,42.74,2035.0,In Stock,True,True,149.0,instock,Metals,VM906,True
+VM907,VM907,Gold,03 Natural Surface,Velvet Metal,image,VM907.jpg,#B2A765,#B2A765,49,1.22 x 50 m,42.74,2035.0,In Stock,True,True,46.0,instock,Metals,VM907,True
+VM908,VM908,Light Brown,03 Natural Surface,Velvet Metal,image,VM908.jpg,#7C7964,#7C7964,49,1.22 x 50 m,42.74,2035.0,In Stock,True,True,42.0,instock,Metals,VM908,True
+VM909,VM909,Brown,03 Natural Surface,Velvet Metal,image,VM909.jpg,#4C4936,#4C4936,49,1.22 x 50 m,58.1,2905.0,Special Order,False,True,0.0,outofstock,Metals,VM909,True
+VM910,VM910,Ash,03 Natural Surface,Velvet Metal,image,VM910.jpg,#718076,#718076,49,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+VM911,VM911,Navy,03 Natural Surface,Velvet Metal,image,VM911.jpg,#3E526E,#3E526E,50,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+PM003,PM003,Onyx,04 Stone & Marble,Premium Marble,image,PM003.jpg,#E0E2DA,#E0E2DA,53,1.22 x 50 m,42.74,2035.0,In Stock,True,True,325.0,instock,Marbles + Stone + Concrete,PM003,True
+PM004,PM004,Terrazzo,04 Stone & Marble,Premium Marble,image,PM004.jpg,#9AA49E,#9AA49E,54,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+PM006,PM006,Pietra,04 Stone & Marble,Premium Marble,image,PM006.jpg,#586C69,#5C706E,55,1.22 x 50 m,42.74,2035.0,In Stock,True,True,509.0,instock,Marbles + Stone + Concrete,PM006,True
+PM007,PM007,Pietra,04 Stone & Marble,Premium Marble,image,PM007.jpg,#394645,#3B4949,55,1.22 x 50 m,42.74,2035.0,In Stock,True,True,704.0,instock,Marbles + Stone + Concrete,PM007,True
+PM008,PM008,Terrazzo,04 Stone & Marble,Premium Marble,image,PM008.jpg,#C6C2B4,#C6C2B4,54,1.22 x 50 m,42.74,2035.0,In Stock,True,True,569.0,instock,Marbles + Stone + Concrete,PM008,True
+PM009,PM009,Basaltina,04 Stone & Marble,Premium Marble,image,PM009.jpg,#516362,#556767,54,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+PM010,PM010,Basaltina,04 Stone & Marble,Premium Marble,image,PM010.jpg,#78837F,#7D8985,54,1.22 x 50 m,42.74,2035.0,In Stock,True,True,482.0,instock,Marbles + Stone + Concrete,PM010,True
+PM014,PM014,Tundra,04 Stone & Marble,Premium Marble,image,PM014.jpg,#CFCECA,#CFCECA,53,1.22 x 50 m,58.1,2905.0,Special Order,False,False,,onbackorder,,,True
+PM016,PM016,Fior di Bosco,04 Stone & Marble,Premium Marble,image,PM016.jpg,#9FABA9,#9FABA9,53,1.22 x 50 m,42.74,2035.0,In Stock,True,True,59.0,instock,Marbles + Stone + Concrete,PM016,True
+PM017,PM017,Bianco,04 Stone & Marble,Premium Marble,image,PM017.jpg,#EEEFEA,#EEEFEA,53,1.22 x 50 m,42.74,2035.0,In Stock,True,True,807.0,instock,Marbles + Stone + Concrete,PM017,True
+PM019,PM019,Venato,04 Stone & Marble,Premium Marble,image,PM019.jpg,#F4F4F0,#F4F4F0,52,1.22 x 50 m,42.74,2035.0,In Stock,True,True,2981.0,instock,Marbles + Stone + Concrete,PM019,True
+NS118,NS118,White Marble,04 Stone & Marble,Stone & Marble,image,NS118.jpg,#E4E8E1,#F0F4ED,57,1.22 x 50 m,38.12,1815.0,In Stock,True,True,942.0,instock,Marbles + Stone + Concrete,NS118,True
+NS119,NS119,White Marble,04 Stone & Marble,Stone & Marble,image,NS119.jpg,#C0C8BF,#CBD3C9,57,1.22 x 50 m,38.12,1815.0,In Stock,True,True,237.0,instock,Marbles + Stone + Concrete,NS119,True
+NS120,NS120,Granite,04 Stone & Marble,Stone & Marble,image,NS120.jpg,#8E9A92,#95A299,56,1.22 x 50 m,53.0,2650.0,Special Order,False,False,,onbackorder,,,True
+NS121,NS121,Granite,04 Stone & Marble,Stone & Marble,image,NS121.jpg,#AFB5A5,#B8BFAE,56,1.22 x 50 m,38.12,1815.0,In Stock,True,True,513.0,instock,Marbles + Stone + Concrete,NS121,True
+NS122,NS122,Sierra Stone,04 Stone & Marble,Stone & Marble,image,NS122.jpg,#CFD4CE,#D9DED8,56,1.22 x 50 m,38.12,1815.0,In Stock,True,True,1183.0,instock,Marbles + Stone + Concrete,NS122,True
+NS123,NS123,Sierra Stone,04 Stone & Marble,Stone & Marble,image,NS123.jpg,#BDC3C1,#C6CCCA,56,1.22 x 50 m,53.0,2650.0,Special Order,False,False,,onbackorder,,,True
+NS201,NS201,Travertine,04 Stone & Marble,Stone & Marble,image,NS201.jpg,#CCCABA,#CCCABA,55,1.22 x 50 m,38.12,1815.0,In Stock,True,True,575.0,instock,Marbles + Stone + Concrete,NS201 (NEW),True
+NS202,NS202,Travertine,04 Stone & Marble,Stone & Marble,image,NS202.jpg,#CAC6AB,#CAC6AB,55,1.22 x 50 m,38.12,1815.0,In Stock,True,True,2343.0,instock,Marbles + Stone + Concrete,NS202 (NEW),True
+NS401,NS401,Concrete,04 Stone & Marble,Stone & Marble,image,NS401.jpg,#9DACAB,#A5B5B3,56,1.22 x 50 m,38.12,1815.0,In Stock,True,True,541.0,instock,Marbles + Stone + Concrete,NS401,True
+NS403,NS403,Concrete,04 Stone & Marble,Stone & Marble,image,NS403.jpg,#4D5A58,#505D5C,56,1.22 x 50 m,38.12,1815.0,In Stock,True,True,207.0,instock,Marbles + Stone + Concrete,NS403,True
+NS703,NS703,Cement,04 Stone & Marble,Stone & Marble,image,NS703.jpg,#919A94,#98A19C,56,1.22 x 50 m,38.12,1815.0,In Stock,True,True,777.0,instock,Marbles + Stone + Concrete,NS703,True
+NS710,NS710,Cardoso,04 Stone & Marble,Stone & Marble,image,NS710.jpg,#5E6864,#626D68,56,1.22 x 50 m,53.0,2650.0,Special Order,False,False,,onbackorder,,,True
+NS711,NS711,Cardoso,04 Stone & Marble,Stone & Marble,image,NS711.jpg,#A4A8A3,#ADB1AB,56,1.22 x 50 m,53.0,2650.0,Special Order,False,False,,onbackorder,,,True
+NS715,NS715,Mono Terrazzo,04 Stone & Marble,Stone & Marble,image,NS715.jpg,#CFD5D0,#D9E0DA,57,1.22 x 50 m,38.12,1815.0,In Stock,True,True,53.0,instock,Marbles + Stone + Concrete,NS715,True
+NS717,NS717,Particle Stone,04 Stone & Marble,Stone & Marble,image,NS717.jpg,#373F40,#384143,56,1.22 x 50 m,53.0,2650.0,Special Order,False,False,,onbackorder,,,True
+NS804,NS804,Nero Marquina,04 Stone & Marble,Stone & Marble,image,NS804.jpg,#0A0D0D,#0A0C0D,57,1.22 x 50 m,38.12,1815.0,In Stock,True,True,194.0,instock,Marbles + Stone + Concrete,NS804,True
+NS806,NS806,Travertine,04 Stone & Marble,Stone & Marble,image,NS806.jpg,#B9AFA7,#C2B8AF,57,1.22 x 50 m,38.12,1815.0,In Stock,True,True,336.0,instock,Marbles + Stone + Concrete,NS806,True
+NS814,NS814,Arabescato,04 Stone & Marble,Stone & Marble,image,NS814.jpg,#E4E7E8,#F0F3F4,57,1.22 x 50 m,38.12,1815.0,In Stock,True,True,1222.0,instock,Marbles + Stone + Concrete,NS814,True
+NS822,NS822,Elba Stone,04 Stone & Marble,Stone & Marble,image,NS822.jpg,#9CA69F,#A4AEA6,56,1.22 x 50 m,53.0,2650.0,Special Order,False,True,148.0,instock,Marbles + Stone + Concrete,NS822 (NEW),True
+NS823,NS823,Elba Stone,04 Stone & Marble,Stone & Marble,image,NS823.jpg,#929D9A,#99A5A1,56,1.22 x 50 m,53.0,2650.0,Special Order,False,False,,onbackorder,,,True
+NS898,NS898,Flake Cement,04 Stone & Marble,Stone & Marble,image,NS898.jpg,#BFC5C0,#C9D0CA,56,1.22 x 50 m,53.0,2650.0,Special Order,False,False,,onbackorder,,,True
+ECF01,ECF01,Whiteboard,05 Etc,Easy Clean Film,vector,ECF01.png,#F2F1E9,#F2F1E9,121,1.22 x 50m,72.07,3432.0,In Stock,True,True,98.0,instock,Solid Colours,ECF01 (NEW),True
+EXF51,EXF51,Textured Onyx,05 Etc,Exterior Film,image,EXF51.jpg,#DFDCD2,#DFDCD2,57,1.22 x 50m,59.37,2827.0,In Stock,True,True,471.0,instock,Marbles + Stone + Concrete,EXF51 (NEW),True
+EXF52,EXF52,Rustic Stone,05 Etc,Exterior Film,image,EXF52.jpg,#CDD1C5,#CDD1C5,57,1.22 x 50m,59.37,2827.0,In Stock,True,True,666.0,instock,Marbles + Stone + Concrete,EXF52 (NEW),True
+EXF53,EXF53,Wild Concrete,05 Etc,Exterior Film,image,EXF53.jpg,#D2D7DA,#D2D7DA,57,1.22 x 50m,59.37,2827.0,In Stock,True,True,530.0,instock,Marbles + Stone + Concrete,EXF53 (NEW),True
+EXF54,EXF54,Wild Concrete,05 Etc,Exterior Film,vector,EXF54.png,#596165,#596165,57,1.22 x 50m,79.5,3975.0,Special Order,False,False,,onbackorder,,,True

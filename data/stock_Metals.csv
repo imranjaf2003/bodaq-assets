@@ -1,0 +1,39 @@
+NO.,BRAND,CODE,NAME,TYPE,CURRENT STOCK,,,,,,
+,,,,,FULL ROLLS,,PARTIAL ROLLS,,,,
+,,,,,125cms x 50m (Rolls),Partial Roll 1 (mtrs),Partial Roll 2 (mtrs),Partial Roll 3 (mtrs),Partial Roll 4 (mtrs),Partial Roll 5 (mtrs),Reserve
+REGULARLY STOCKED PATTERNS,,,,,,,,,,,
+1,Bodaq,RM007,Gold,Brushed Metal,10,6m+7m,17m,0,0,0,0
+2,Bodaq,RM008,Bronze,Brushed Metal,15,5m,2m+2m,1m+4m,17m+39m,0,0
+3,Bodaq,RM011,Copper,Brushed Metal,2,0,18m,0,0,2m,10
+4,Bodaq,RM012,Platinum,Brushed Metal,1,2m+2m+1m,15m+8m,2m+21m,20m,0,0
+5,Bodaq,RM051,Stainless Steel,Cross Hairline Metal,11,3m+2m+8m+3m,1m+3m+1m+3m,3m+1m+2m,1m+4m+5m,2m+4m+2m,0
+6,Bodaq,UMI02,Champagne Metallic,Premium Metal,1,1m+5m+7m+3m,6m+2m+4m,40m,0,0,0
+7,Bodaq,UMI05,Ice Queen ,Hologram,2,18m,1m,5m,0,0,0
+8,Bodaq,VM902 ,Grey,Velvet Metal,2,1m+6m,1m,0,0,0,0
+9,Bodaq,VM903,Silver,Velvet Metal,0,2m+47m,1m,0,0,0,0
+10,Bodaq,VM904,Sky Blue,Velvet Metal,3,12m,1m,39m,0,0,0
+11,Bodaq,VM905 ,Champagne,Velvet Metal,9,25m,2m,1m+4m,0,0,0
+12,Bodaq,VM906,Rose Gold,Velvet Metal,2,10m,35m,4m,0,0,0
+13,Bodaq,VM907 ,Gold,Velvet Metal,0,6m,4m+1m,35m,0,0,0
+14,Bodaq,VM908 ,Light Brown,Velvet Metal,1,5m,1m,3m,0,0,17m
+OTHER PATTERNS IN STOCK (NOT REGULARLY STOCKED),,,,,,,,,,,
+1,Bodaq,NS702,Bronze Mesh,Metal,0,0,33m,0,0,0,0
+2,Kointec,IPT5000 (25m),Mirror,Metal,0,22m,0,0,0,0,0
+3,Bodaq,DM036,,Metal,0,1m,0,0,0,0,0
+4,LX Hausys,MS20,,Metal,0,3m,0,0,0,0,0
+5,LX Hausys,RP48,,Gold,0,2m,0,0,0,0,0
+6,Bodaq,RM001,,Metal,0,2m+2m,0,0,0,0,0
+7,Bodaq,RM003,,,0,2m,0,0,0,,0
+8,Reface,MT026,Dark Blue,Brushed Metal,0,1m,10m,0,0,0,0
+9,Reface,MT027,Dark Gold,Brushed Metal,1,0,19m,0,0,0,0
+10,Reface,MT021,Medium Grey,Brushed Metal,0,30m,12m,0,0,0,0
+11,Reface,MT022,White,Brushed Metal,0,14m,30m,0,0,0,0
+12,Bodaq,RM015,,,0,0,0,0,0,0,0
+13,Bodaq,UMI06,Northern Lights,Hologram,0,7m,0,0,0,0,0
+14,Bodaq,UMI07,Aurora,Hologram,0,0,17m,0,0,0,0
+15,Bodaq,APZ18,Gold Weave,Metal,4,4m+11m,3m,5m,0,0,0
+16,Bodaq,APZ05,Gold Crack,Metal,1,1m+47m,2m,0,0,0,0
+17,Bodaq,NS602,Black Patina,Metal,0,0,0,0,0,0,0
+18,Bodaq,RM005,Dark Steel,Brushed Metal,0,1m+8m,1m,1m,0,0,0
+19,Bodaq,UMI01,Silver Metallic,Premium Metal,2,2m+2m+2m,1m+3m,5m+9m,16m,0,0
+20,Bodaq,VM909,,,0,0,0,0,0,0,0
