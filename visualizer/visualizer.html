@@ -190,17 +190,13 @@ function applyFinish(sw){
     tex.encoding = THREE.sRGBEncoding;
     tex.anisotropy = 8;
     wrappedMeshes.forEach(m=>{
-      const g = m.geometry.parameters || {};
       const t = tex.clone(); t.needsUpdate = true;
       t.encoding = THREE.sRGBEncoding;
-      // ONE continuous piece of film per panel — no tiling, grain runs full height.
-      // Narrow frame strips read best with the grain along their length.
-      const w = g.width || 0.5, h = g.height || 1;
-      if (h > w * 3){        // tall narrow strip (vertical frame jamb) — rotate grain
-        t.rotation = Math.PI/2; t.center.set(0.5, 0.5);
-      } else if (w > h * 3){ // wide narrow strip (frame head) — keep grain horizontal
-        t.rotation = 0;
-      }
+      // ONE continuous piece of film per panel — no tiling. Grain runs vertically
+      // (film-roll direction) on every panel. Only explicitly-tagged horizontal
+      // frame strips get the grain turned to run along their length.
+      t.center.set(0.5, 0.5);
+      t.rotation = m.userData.grainHorizontal ? Math.PI/2 : 0;
       t.wrapS = t.wrapT = THREE.ClampToEdgeWrapping;
       t.repeat.set(1, 1);
       const wm = new THREE.MeshStandardMaterial({ map:t, roughness:0.62, metalness:0.0 });
@@ -286,11 +282,12 @@ function buildDoor(){
   g.add(seg(2.6, 3.4,  (W/2+fr+1.3), 1.7));
   g.add(seg(5.4, 1.0, 0, H+fr+0.5));
   // frame — wrapped (added to wrappedMeshes via slab-like helper)
-  const frameSlab = (w,h,x,y)=>{ const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,fd), makeWrapMaterial());
-    m.castShadow=true; m.receiveShadow=true; m.position.set(x,y,-0.03); wrappedMeshes.push(m); g.add(m); };
-  frameSlab(W+fr*2, fr, 0, H+fr/2);
-  frameSlab(fr, H+fr, -(W/2+fr/2), H/2);
-  frameSlab(fr, H+fr,  (W/2+fr/2), H/2);
+  const frameSlab = (w,h,x,y,horiz)=>{ const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,fd), makeWrapMaterial());
+    m.castShadow=true; m.receiveShadow=true; m.position.set(x,y,-0.03);
+    m.userData.grainHorizontal = !!horiz; wrappedMeshes.push(m); g.add(m); };
+  frameSlab(W+fr*2, fr, 0, H+fr/2, true);       // head — grain runs across
+  frameSlab(fr, H+fr, -(W/2+fr/2), H/2, false); // jambs — grain runs up
+  frameSlab(fr, H+fr,  (W/2+fr/2), H/2, false);
   // door leaf
   const leaf = slab(W-0.008, H-0.008, T);
   leaf.position.set(0, H/2, T/2 + 0.005);
