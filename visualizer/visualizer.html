@@ -231,11 +231,23 @@ async function init(){
     btn.onclick=async()=>{ document.querySelectorAll('.items button').forEach(x=>x.classList.remove('on'));
       btn.classList.add('on'); item=btn.dataset.item; await render(); };
   });
+  // ?item=door and ?c=LW102 preselect (used by the "see it on furniture" button)
+  const qp = new URLSearchParams(location.search);
+  const qItem = qp.get('item');
+  if (qItem && BASES[qItem]){
+    item = qItem;
+    document.querySelectorAll('.items button').forEach(b=>b.classList.toggle('on', b.dataset.item===qItem));
+  }
   applyFilter();
   await render();
-  // preselect a wood so the demo shows something
-  const demo = colors.find(c=>c.code==='LW102') || colors[0];
-  if (demo) select(demo);
+  const wanted = qp.get('c');
+  const pick = (wanted && colors.find(c=>c.code.toLowerCase()===wanted.toLowerCase()))
+    || colors.find(c=>c.code==='LW102') || colors[0];
+  if (pick){
+    // reveal it in the grid
+    document.getElementById('search').value = pick.code; applyFilter();
+    select(pick);
+  }
 }
 init();
 </script>
