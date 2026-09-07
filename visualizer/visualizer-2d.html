@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BODAQ Vinyl Wrap Visualizer</title>
+<style>
+  :root { --bg:#f4f4f5; --panel:#fff; --line:#e4e4e7; --ink:#18181b; --muted:#71717a; --accent:#2563eb; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:14px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; color:var(--ink); background:var(--bg); }
+  .wrap { max-width:1100px; margin:0 auto; padding:16px; }
+  h1 { font-size:18px; margin:0 0 12px; }
+  .stage { display:grid; grid-template-columns:1fr; gap:16px; }
+  @media (min-width:820px){ .stage { grid-template-columns:1.3fr 1fr; } }
+  .viewer { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px; }
+  .items { display:flex; gap:8px; margin-bottom:10px; }
+  .items button { flex:1; padding:8px; border:1px solid var(--line); background:#fff; border-radius:8px; cursor:pointer; font-weight:600; color:var(--muted); }
+  .items button.on { border-color:var(--accent); color:var(--accent); background:#eff6ff; }
+  canvas { width:100%; height:auto; border-radius:8px; display:block; background:#eee; }
+  .cvload { aspect-ratio:1/1; display:flex; align-items:center; justify-content:center; color:var(--muted); border-radius:8px; background:#eee; }
+  .controls { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px; }
+  .selected { display:flex; align-items:center; gap:10px; padding:8px; border:1px solid var(--line); border-radius:8px; margin-bottom:10px; }
+  .selected .chip { width:44px; height:44px; border-radius:6px; border:1px solid #0002; background-size:cover; flex:none; }
+  .selected .meta b { display:block; }
+  .selected .meta span { color:var(--muted); font-size:12px; }
+  .filters { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; }
+  .filters button { padding:5px 10px; border:1px solid var(--line); background:#fff; border-radius:999px; cursor:pointer; font-size:12px; color:var(--muted); }
+  .filters button.on { background:var(--ink); color:#fff; border-color:var(--ink); }
+  #search { width:100%; padding:8px; border:1px solid var(--line); border-radius:8px; margin-bottom:10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(58px,1fr)); gap:6px; max-height:420px; overflow:auto; padding-right:4px; }
+  .sw { aspect-ratio:1/1; border-radius:6px; border:2px solid transparent; cursor:pointer; background-size:cover; background-position:center; position:relative; }
+  .sw.on { border-color:var(--accent); box-shadow:0 0 0 2px #fff inset; }
+  .adj { margin-top:12px; font-size:12px; color:var(--muted); }
+  .adj label { display:flex; align-items:center; gap:8px; margin-top:6px; }
+  .adj input[type=range] { flex:1; }
+  .note { font-size:12px; color:var(--muted); margin-top:10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>See it on your furniture</h1>
+  <div class="stage">
+    <div class="viewer">
+      <div class="items">
+        <button data-item="wardrobe" class="on">Wardrobe</button>
+        <button data-item="door">Door</button>
+        <button data-item="kitchen">Kitchen</button>
+      </div>
+      <div id="cvbox"><div class="cvload">Loading…</div></div>
+      <div class="note" id="note"></div>
+    </div>
+    <div class="controls">
+      <div class="selected">
+        <div class="chip" id="selChip"></div>
+        <div class="meta"><b id="selName">Pick a colour</b><span id="selSub"></span></div>
+        <a id="orderBtn" href="#" target="_top" hidden style="margin-left:auto;padding:8px 12px;background:var(--accent);color:#fff;border-radius:8px;text-decoration:none;font-weight:600;white-space:nowrap">Order</a>
+      </div>
+      <div class="filters" id="filters"></div>
+      <input id="search" placeholder="Search name or code…">
+      <div class="grid" id="grid"></div>
+      <div class="adj">
+        <label>Pattern scale <input type="range" id="scale" min="1" max="8" step="0.25" value="3"></label>
+        <label>Strength <input type="range" id="strength" min="0.4" max="1" step="0.05" value="0.9"></label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// regions (fractions of width/height) that contain the recolourable surface.
+const BASES = {
+  wardrobe: { src:'./bases/wardrobe.jpeg', scale:2.5, regions:[[0.11,0.07,0.89,0.93]] },
+  door:     { src:'./bases/door.jpeg',     scale:2.2, regions:[[0.32,0.06,0.69,0.92]] },
+  kitchen:  { src:'./bases/kitchen.jpeg',  scale:3.5, regions:[[0.045,0.215,0.955,0.40],[0.03,0.525,0.975,0.83]] },
+};
+const SWATCH_BASE = '../swatches/';
+const REF_LUM = 186;         // measured grey luminance of the base surfaces
+const SAT_MAX = 18, LUM_MIN = 72, LUM_MAX = 238;
+
+let colors = [], filtered = [], current = null, item = 'wardrobe';
+let baseCache = {};          // item -> { canvas, w, h, mask:Uint8, shade:Float32 }
+const cvbox = document.getElementById('cvbox');
+let canvas, ctx;
+
+function luminance(r,g,b){ return 0.299*r + 0.587*g + 0.114*b; }
+
+async function loadImage(src){
+  return new Promise((res,rej)=>{ const i=new Image(); i.crossOrigin='anonymous';
+    i.onload=()=>res(i); i.onerror=()=>rej(new Error('img '+src)); i.src=src; });
+}
+
+async function prepBase(name){
+  if (baseCache[name]) return baseCache[name];
+  const img = await loadImage(BASES[name].src);
+  const w = img.naturalWidth, h = img.naturalHeight;
+  const off = document.createElement('canvas'); off.width=w; off.height=h;
+  const octx = off.getContext('2d', { willReadFrequently:true });
+  octx.drawImage(img,0,0);
+  const data = octx.getImageData(0,0,w,h).data;
+  const n = w*h;
+  const mask = new Uint8Array(n), shade = new Float32Array(n);
+  const regions = (BASES[name].regions||[[0,0,1,1]]).map(([x0,y0,x1,y1])=>
+    [x0*w, y0*h, x1*w, y1*h]);
+  for (let i=0;i<n;i++){
+    const x = i % w, y = (i / w)|0;
+    let inReg = false;
+    for (const [rx0,ry0,rx1,ry1] of regions){ if (x>=rx0&&x<=rx1&&y>=ry0&&y<=ry1){ inReg=true; break; } }
+    if (!inReg) continue;
+    const r=data[i*4], g=data[i*4+1], b=data[i*4+2];
+    const sat = Math.max(r,g,b) - Math.min(r,g,b);
+    const lum = luminance(r,g,b);
+    if (sat <= SAT_MAX && lum >= LUM_MIN && lum <= LUM_MAX){
+      mask[i] = 1;
+      shade[i] = Math.max(0.55, Math.min(1.4, lum / REF_LUM));
+    }
+  }
+  // erode 1px to kill isolated edge speckle
+  const er = new Uint8Array(mask);
+  for (let y=1;y<h-1;y++) for (let x=1;x<w-1;x++){
+    const i=y*w+x; if(!mask[i]) continue;
+    if(!mask[i-1]||!mask[i+1]||!mask[i-w]||!mask[i+w]) er[i]=0;
+  }
+  baseCache[name] = { base:off, w, h, mask:er, shade, orig:data };
+  return baseCache[name];
+}
+
+function ensureCanvas(w,h){
+  if (!canvas){ canvas = document.createElement('canvas'); ctx = canvas.getContext('2d'); cvbox.innerHTML=''; cvbox.appendChild(canvas); }
+  canvas.width=w; canvas.height=h;
+}
+
+async function render(){
+  const b = await prepBase(item);
+  ensureCanvas(b.w, b.h);
+  const out = ctx.createImageData(b.w, b.h);
+  const od = out.data, orig = b.orig, mask = b.mask, shade = b.shade;
+  const strength = +document.getElementById('strength').value;
+
+  if (!current){ od.set(orig); ctx.putImageData(out,0,0); return; }
+
+  let tex = null, tw=0, th=0;
+  if (current.tex){
+    try {
+      const timg = await loadImage(SWATCH_BASE + current.file);
+      const scale = +document.getElementById('scale').value * (BASES[item].scale/3);
+      tw = Math.max(2, Math.round(timg.naturalWidth * scale * 0.12));
+      th = Math.max(2, Math.round(timg.naturalHeight * scale * 0.12));
+      const tc = document.createElement('canvas'); tc.width=tw; tc.height=th;
+      tc.getContext('2d').drawImage(timg,0,0,tw,th);
+      tex = tc.getContext('2d').getImageData(0,0,tw,th).data;
+    } catch(e){ tex = null; }
+  }
+  const hex = current.hex.replace('#',''), sr=parseInt(hex.slice(0,2),16), sg=parseInt(hex.slice(2,4),16), sb=parseInt(hex.slice(4,6),16);
+
+  for (let i=0;i<mask.length;i++){
+    const p=i*4;
+    if (!mask[i]){ od[p]=orig[p]; od[p+1]=orig[p+1]; od[p+2]=orig[p+2]; od[p+3]=255; continue; }
+    const sh = shade[i];
+    let cr, cg, cb;
+    if (tex){
+      const x = i % b.w, y = (i / b.w)|0;
+      const tp = (((y % th)*tw) + (x % tw))*4;
+      cr = tex[tp]; cg = tex[tp+1]; cb = tex[tp+2];
+    } else { cr=sr; cg=sg; cb=sb; }
+    let nr = cr*sh, ng = cg*sh, nb = cb*sh;
+    // blend toward result by strength, keeping a little of the original micro-detail
+    const orr=orig[p], org=orig[p+1], orb=orig[p+2];
+    const keep = (1-strength)*0.6;
+    od[p]   = Math.min(255, nr*(1-keep) + orr*keep*(nr/REF_LUM));
+    od[p+1] = Math.min(255, ng*(1-keep) + org*keep*(ng/REF_LUM));
+    od[p+2] = Math.min(255, nb*(1-keep) + orb*keep*(nb/REF_LUM));
+    od[p+3] = 255;
+  }
+  ctx.putImageData(out,0,0);
+}
+
+function renderGrid(){
+  const g = document.getElementById('grid');
+  g.innerHTML='';
+  filtered.slice(0,400).forEach(c=>{
+    const d=document.createElement('div');
+    d.className='sw'+(current&&current.code===c.code?' on':'');
+    d.title=`${c.name} (${c.code})`;
+    if (c.tex) d.style.backgroundImage=`url(${SWATCH_BASE+c.file})`;
+    else d.style.background=c.hex;
+    d.onclick=()=>select(c);
+    g.appendChild(d);
+  });
+}
+
+function applyFilter(){
+  const q=document.getElementById('search').value.toLowerCase().trim();
+  const cat=document.querySelector('.filters button.on').dataset.cat;
+  filtered = colors.filter(c=>
+    (cat==='All'||c.cat===cat) &&
+    (!q || c.name.toLowerCase().includes(q) || c.code.toLowerCase().includes(q)));
+  renderGrid();
+}
+
+// ?shop=https://visionthree.ae  -> Order button links to /product/<slug or ?s=code>
+const SHOP = new URLSearchParams(location.search).get('shop') || '';
+
+function select(c){
+  current=c;
+  document.getElementById('selChip').style.cssText =
+    c.tex ? `background-image:url(${SWATCH_BASE+c.file})` : `background:${c.hex}`;
+  document.getElementById('selName').textContent = `${c.name} (${c.code})`;
+  document.getElementById('selSub').textContent = `${c.cat} · ${c.sub}`;
+  const ob = document.getElementById('orderBtn');
+  if (SHOP){ ob.hidden=false; ob.textContent=`Order ${c.code}`; ob.href=`${SHOP}/?s=${encodeURIComponent(c.code)}&post_type=product`; }
+  try { parent.postMessage({ type:'bodaq-visualizer-select', code:c.code, name:c.name }, '*'); } catch(e){}
+  document.getElementById('note').textContent = c.tex
+    ? 'Textured finish — the real film pattern is mapped onto the surface.'
+    : 'Flat colour — approximate; see the physical swatch for an exact match.';
+  renderGrid();
+  render();
+}
+
+async function init(){
+  colors = await fetch('./colors.json').then(r=>r.json());
+  const cats = ['All', ...[...new Set(colors.map(c=>c.cat))]];
+  const fb = document.getElementById('filters');
+  cats.forEach((cat,i)=>{ const b=document.createElement('button');
+    b.textContent=cat; b.dataset.cat=cat; if(i===0)b.classList.add('on');
+    b.onclick=()=>{ document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('on')); b.classList.add('on'); applyFilter(); };
+    fb.appendChild(b); });
+  document.getElementById('search').oninput = applyFilter;
+  document.getElementById('scale').oninput = ()=>current&&render();
+  document.getElementById('strength').oninput = ()=>render();
+  document.querySelectorAll('.items button').forEach(btn=>{
+    btn.onclick=async()=>{ document.querySelectorAll('.items button').forEach(x=>x.classList.remove('on'));
+      btn.classList.add('on'); item=btn.dataset.item; await render(); };
+  });
+  // ?item=door and ?c=LW102 preselect (used by the "see it on furniture" button)
+  const qp = new URLSearchParams(location.search);
+  const qItem = qp.get('item');
+  if (qItem && BASES[qItem]){
+    item = qItem;
+    document.querySelectorAll('.items button').forEach(b=>b.classList.toggle('on', b.dataset.item===qItem));
+  }
+  applyFilter();
+  await render();
+  const wanted = qp.get('c');
+  const pick = (wanted && colors.find(c=>c.code.toLowerCase()===wanted.toLowerCase()))
+    || colors.find(c=>c.code==='LW102') || colors[0];
+  if (pick){
+    // reveal it in the grid
+    document.getElementById('search').value = pick.code; applyFilter();
+    select(pick);
+  }
+}
+init();
+</script>
+</body>
+</html>
