@@ -189,21 +189,22 @@ function applyFinish(sw){
   texLoader.load(SWATCH_BASE + sw.file, (tex)=>{
     tex.encoding = THREE.sRGBEncoding;
     tex.anisotropy = 8;
-    tex.wrapS = tex.wrapT = THREE.RepeatWrapping;
     wrappedMeshes.forEach(m=>{
       const g = m.geometry.parameters || {};
       const t = tex.clone(); t.needsUpdate = true;
-      t.wrapS = t.wrapT = THREE.RepeatWrapping;
       t.encoding = THREE.sRGBEncoding;
-      if (sw.tex){
-        // real texture: ~0.75 m of film per swatch tile, grain vertical
-        const pw = g.width || 0.5, ph = g.height || 1;
-        t.repeat.set(Math.max(1, pw/0.75), Math.max(1, ph/1.0));
-      } else {
-        t.repeat.set(1, 1); // flat colour swatch — no visible tiling
+      // ONE continuous piece of film per panel — no tiling, grain runs full height.
+      // Narrow frame strips read best with the grain along their length.
+      const w = g.width || 0.5, h = g.height || 1;
+      if (h > w * 3){        // tall narrow strip (vertical frame jamb) — rotate grain
+        t.rotation = Math.PI/2; t.center.set(0.5, 0.5);
+      } else if (w > h * 3){ // wide narrow strip (frame head) — keep grain horizontal
+        t.rotation = 0;
       }
+      t.wrapS = t.wrapT = THREE.ClampToEdgeWrapping;
+      t.repeat.set(1, 1);
       const wm = new THREE.MeshStandardMaterial({ map:t, roughness:0.62, metalness:0.0 });
-      if (sw.tex){ wm.bumpMap = t; wm.bumpScale = 0.003; }
+      if (sw.tex){ wm.bumpMap = t; wm.bumpScale = 0.0025; }
       m.material.dispose();
       m.material = wm;
     });
@@ -313,7 +314,10 @@ function setItem(name){
   scene.add(itemGroup);
   // fit the contact shadow to the item footprint
   if (built.tilt) itemGroup.rotation.y = built.tilt;
-  const bb = new THREE.Box3().setFromObject(itemGroup);
+  // frame on the wrapped surfaces only (ignore the wall/context geometry)
+  const bb = new THREE.Box3();
+  wrappedMeshes.forEach(m=>{ m.updateWorldMatrix(true,false); bb.expandByObject(m); });
+  if (bb.isEmpty()) bb.setFromObject(itemGroup);
   const sz = bb.getSize(new THREE.Vector3()), ctr = bb.getCenter(new THREE.Vector3());
   contactShadow.scale.set(sz.x + 1.0, sz.z * 3.5 + 0.6, 1);
   contactShadow.position.set(ctr.x, 0.012, 0.15);
