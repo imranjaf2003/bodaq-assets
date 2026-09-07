@@ -119,7 +119,7 @@ function initThree(){
   const sc = document.createElement('canvas'); sc.width = sc.height = 256;
   const sg = sc.getContext('2d');
   const rg = sg.createRadialGradient(128,128,10, 128,128,120);
-  rg.addColorStop(0,'rgba(0,0,0,0.42)'); rg.addColorStop(0.6,'rgba(0,0,0,0.18)'); rg.addColorStop(1,'rgba(0,0,0,0)');
+  rg.addColorStop(0,'rgba(0,0,0,0.55)'); rg.addColorStop(0.55,'rgba(0,0,0,0.28)'); rg.addColorStop(1,'rgba(0,0,0,0)');
   sg.fillStyle = rg; sg.fillRect(0,0,256,256);
   const shadowTex = new THREE.CanvasTexture(sc);
   contactShadow = new THREE.Mesh(new THREE.PlaneGeometry(1, 1),
@@ -150,7 +150,7 @@ function onResize(){
 function applyOrbit(){
   orbit.pol = Math.max(1.02, Math.min(1.60, orbit.pol));
   orbit.az  = Math.max(-0.95, Math.min(0.30, orbit.az));
-  orbit.dist = Math.max(3.2, Math.min(12, orbit.dist));
+  orbit.dist = Math.max(3.0, Math.min(22, orbit.dist));
   const s = Math.sin(orbit.pol), c = Math.cos(orbit.pol);
   camera.position.set(
     orbit.target.x + orbit.dist * s * Math.sin(orbit.az),
@@ -219,93 +219,86 @@ function slab(w,h,d){ // a plain wrapped front
 }
 function box(w,h,d,mat){ const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),mat); m.castShadow=true; m.receiveShadow=true; return m; }
 
-function buildKitchen(){
-  // luxury villa: tall handleless banks flanking a worktop niche, all one grounded volume
-  const g = new THREE.Group();
-  const GAP = 0.014, D = 0.62, PL = 0.1, H = 2.5;
-  const bankW = 1.3, nicheW = 2.4, W = bankW*2 + nicheW;
-  const x0 = -W/2;
-  const BASE_H = 0.9, WALL_GAP = 0.5;
-  const PLINTH_MAT = new THREE.MeshStandardMaterial({ color:0x4a453e, roughness:0.6 });
+const PLINTH_MAT = new THREE.MeshStandardMaterial({ color:0x3f3a34, roughness:0.6 });
 
-  // continuous plinth — solid, near-flush
+function buildKitchen(){
+  // luxury villa: floor-to-ceiling handleless cabinet bank + a lower worktop run
+  const g = new THREE.Group();
+  const GAP = 0.016, D = 0.62, PL = 0.1, H = 2.55;
+  const tallCount = 4, tallW = 0.75;        // tall bank on the left
+  const runCount = 3, runW = 0.75;          // base run on the right
+  const tW = tallCount*tallW, rW = runCount*runW;
+  const W = tW + rW, x0 = -W/2;
+  const BASE_H = 0.9;
+
+  // one continuous plinth
   const plinth = box(W, PL, D-0.02, PLINTH_MAT); plinth.position.set(0, PL/2, -0.01); g.add(plinth);
 
-  // -- left tall bank (2 doors stacked) --
-  const bank = (cx)=>{
-    const car = box(bankW, H, D, CARCASS); car.position.set(cx, PL + H/2, 0); g.add(car);
-    const d1 = slab(bankW-GAP, H*0.62-GAP, 0.022); d1.position.set(cx, PL + H*0.31, D/2+0.012); g.add(d1);
-    const d2 = slab(bankW-GAP, H*0.36-GAP, 0.022); d2.position.set(cx, PL + H*0.81, D/2+0.012); g.add(d2);
-  };
-  bank(x0 + bankW/2);
-  bank(x0 + bankW + nicheW + bankW/2);
+  // tall bank
+  const tCar = box(tW, H, D, CARCASS); tCar.position.set(x0 + tW/2, PL + H/2, 0); g.add(tCar);
+  for (let i=0;i<tallCount;i++){
+    const cx = x0 + tallW*(i+0.5);
+    const a = slab(tallW-GAP, H*0.6-GAP, 0.024); a.position.set(cx, PL + H*0.30, D/2+0.013); g.add(a);
+    const b = slab(tallW-GAP, H*0.38-GAP, 0.024); b.position.set(cx, PL + H*0.80, D/2+0.013); g.add(b);
+  }
 
-  // -- niche: base units + worktop + splashback + wall units, faces flush with banks --
-  const nx0 = x0 + bankW;
-  const baseCar = box(nicheW, BASE_H, D, CARCASS); baseCar.position.set(nx0 + nicheW/2, PL + BASE_H/2, 0); g.add(baseCar);
-  const nB = 3, ncw = nicheW/nB;
-  for (let i=0;i<nB;i++){
-    const f = slab(ncw-GAP, BASE_H-GAP, 0.022);
-    f.position.set(nx0 + ncw*(i+0.5), PL + BASE_H/2, D/2+0.012); g.add(f);
+  // base run + slim stone worktop (open above — no wall units, no big void)
+  const rx0 = x0 + tW;
+  const rCar = box(rW, BASE_H, D, CARCASS); rCar.position.set(rx0 + rW/2, PL + BASE_H/2, 0); g.add(rCar);
+  for (let i=0;i<runCount;i++){
+    const f = slab(runW-GAP, BASE_H-GAP, 0.024);
+    f.position.set(rx0 + runW*(i+0.5), PL + BASE_H/2, D/2+0.013); g.add(f);
   }
   const topY = PL + BASE_H;
-  const top = box(nicheW+0.02, 0.045, D+0.02, STONE_TOP); top.position.set(nx0 + nicheW/2, topY+0.022, 0.01); g.add(top);
-  const sb = box(nicheW, WALL_GAP, 0.03, FRAME); sb.position.set(nx0 + nicheW/2, topY + WALL_GAP/2, -D/2+0.02); g.add(sb);
-  const wallY = topY + WALL_GAP + (H - topY - WALL_GAP)/2 + PL/2;
-  const wallH = H + PL - topY - WALL_GAP;
-  const wallCar = box(nicheW, wallH, D, CARCASS); wallCar.position.set(nx0 + nicheW/2, topY + WALL_GAP + wallH/2, 0); g.add(wallCar);
-  for (let i=0;i<nB;i++){
-    const f = slab(ncw-GAP, wallH-GAP, 0.022);
-    f.position.set(nx0 + ncw*(i+0.5), topY + WALL_GAP + wallH/2, D/2+0.012); g.add(f);
-  }
+  const top = box(rW+0.06, 0.05, D+0.04, STONE_TOP); top.position.set(rx0 + rW/2, topY+0.025, 0.02); g.add(top);
+  // waterfall end panel
+  const wf = box(0.05, topY+0.05, D+0.04, STONE_TOP); wf.position.set(rx0 + rW + 0.03, (topY+0.05)/2, 0.02); g.add(wf);
 
-  return { group:g, focus:new THREE.Vector3(0, 1.28, 0.1), dist:7.4 };
+  return { group:g, tilt:0.02 };
 }
 
 function buildWardrobe(){
   const g = new THREE.Group();
-  const W = 2.6, H = 2.75, D = 0.62, n = 4, GAP = 0.014, cw = W/n;
-  const wplinth = box(W, 0.1, D-0.05, CARCASS); wplinth.position.set(0,0.05,-0.02); g.add(wplinth);
-  const car = box(W, H, D, CARCASS); car.position.set(0, 0.1+H/2, 0); g.add(car);
+  const W = 2.6, H = 2.78, D = 0.62, n = 4, GAP = 0.016, cw = W/n, PL = 0.09;
+  const wplinth = box(W, PL, D-0.04, PLINTH_MAT); wplinth.position.set(0, PL/2, -0.01); g.add(wplinth);
+  const car = box(W, H, D, CARCASS); car.position.set(0, PL+H/2, 0); g.add(car);
   for (let i=0;i<n;i++){
-    const dpanel = slab(cw-GAP, H-GAP, 0.03);
-    dpanel.position.set(-W/2 + cw*(i+0.5), 0.1+H/2, D/2+0.016);
+    const dpanel = slab(cw-GAP, H-GAP, 0.028);
+    dpanel.position.set(-W/2 + cw*(i+0.5), PL+H/2, D/2+0.015);
     g.add(dpanel);
-    // slim vertical edge handle
-    const hd = box(0.012, H*0.5, 0.03, METAL);
-    hd.position.set(-W/2 + cw*(i+1) - cw*0.02, 0.1+H*0.5, D/2+0.02);
-    if (i<n-1) g.add(hd);
+    if (i<n-1){
+      const hd = box(0.01, H*0.42, 0.028, METAL);
+      hd.position.set(-W/2 + cw*(i+1) - 0.02, PL+H*0.5, D/2+0.02);
+      g.add(hd);
+    }
   }
-  return { group:g, focus:new THREE.Vector3(0, 1.3, 0), dist:8.6 };
+  return { group:g };
 }
 
 function buildDoor(){
+  // plain slab door + slim frame — both wrapped in the chosen colour
   const g = new THREE.Group();
-  const W = 1.0, H = 2.4, T = 0.045;
-  // wall with opening
-  const wallMat = new THREE.MeshStandardMaterial({ color:0xece6dd, roughness:0.92 });
-  const seg = (w,h,x,y)=>{ const m=box(w,h,0.12,wallMat); m.position.set(x,y,-0.12); m.receiveShadow=true; return m; };
-  g.add(seg(6, H+0.6, 0, (H+0.6)/2 + 0.0));          // will be overlapped; simpler: side pieces
-  g.remove(g.children[g.children.length-1]);
-  g.add(seg(2.4, 3.2, -(W/2+0.08+1.2), 1.6));
-  g.add(seg(2.4, 3.2,  (W/2+0.08+1.2), 1.6));
-  g.add(seg(4.9, 0.9, 0, H+0.08+0.45));
-  // frame
-  const fr = 0.06;
-  const frameMat = FRAME;
-  const mkFrame = (w,h,x,y)=>{ const m=box(w,h,0.14,frameMat); m.position.set(x,y,-0.02); m.castShadow=true; return m; };
-  g.add(mkFrame(W+fr*2, fr, 0, H+fr/2));
-  g.add(mkFrame(fr, H+fr, -(W/2+fr/2), H/2));
-  g.add(mkFrame(fr, H+fr,  (W/2+fr/2), H/2));
-  // plain slab door
-  const leaf = slab(W-0.01, H-0.01, T);
-  leaf.position.set(0, H/2, T/2);
+  const W = 1.0, H = 2.45, T = 0.05, fr = 0.09, fd = 0.16;
+  const wallMat = new THREE.MeshStandardMaterial({ color:0xe9e2d7, roughness:0.95 });
+  const seg = (w,h,x,y)=>{ const m=box(w,h,0.14,wallMat); m.position.set(x,y,-0.16); m.receiveShadow=true; return m; };
+  g.add(seg(2.6, 3.4, -(W/2+fr+1.3), 1.7));
+  g.add(seg(2.6, 3.4,  (W/2+fr+1.3), 1.7));
+  g.add(seg(5.4, 1.0, 0, H+fr+0.5));
+  // frame — wrapped (added to wrappedMeshes via slab-like helper)
+  const frameSlab = (w,h,x,y)=>{ const m=new THREE.Mesh(new THREE.BoxGeometry(w,h,fd), makeWrapMaterial());
+    m.castShadow=true; m.receiveShadow=true; m.position.set(x,y,-0.03); wrappedMeshes.push(m); g.add(m); };
+  frameSlab(W+fr*2, fr, 0, H+fr/2);
+  frameSlab(fr, H+fr, -(W/2+fr/2), H/2);
+  frameSlab(fr, H+fr,  (W/2+fr/2), H/2);
+  // door leaf
+  const leaf = slab(W-0.008, H-0.008, T);
+  leaf.position.set(0, H/2, T/2 + 0.005);
   g.add(leaf);
-  // long bar handle
-  const handle = box(0.03, H*0.32, 0.03, METAL);
-  handle.position.set(W/2 - 0.09, H*0.5, T + 0.02);
+  // slim bar handle
+  const handle = box(0.028, H*0.3, 0.03, METAL);
+  handle.position.set(W/2 - 0.08, H*0.48, T + 0.02);
   g.add(handle);
-  return { group:g, focus:new THREE.Vector3(0, 1.2, 0), dist:6.6 };
+  return { group:g };
 }
 
 const BUILDERS = { kitchen:buildKitchen, wardrobe:buildWardrobe, door:buildDoor };
@@ -319,13 +312,18 @@ function setItem(name){
   itemGroup = built.group;
   scene.add(itemGroup);
   // fit the contact shadow to the item footprint
+  if (built.tilt) itemGroup.rotation.y = built.tilt;
   const bb = new THREE.Box3().setFromObject(itemGroup);
   const sz = bb.getSize(new THREE.Vector3()), ctr = bb.getCenter(new THREE.Vector3());
-  contactShadow.scale.set(sz.x * 1.15, sz.z * 3.5, 1);
-  contactShadow.position.set(ctr.x, 0.012, ctr.z + sz.z * 0.1);
-  orbit.target.copy(built.focus);
-  orbit.dist = built.dist;
-  orbit.az = -0.30; orbit.pol = 1.44;
+  contactShadow.scale.set(sz.x + 1.0, sz.z * 3.5 + 0.6, 1);
+  contactShadow.position.set(ctr.x, 0.012, 0.15);
+  // auto-frame: fit with headroom for the 3/4 angle
+  orbit.target.set(ctr.x, ctr.y * 0.88 + 0.15, 0);
+  const fov = camera.fov * Math.PI/180;
+  const fitH = (sz.y * 1.5) / (2*Math.tan(fov/2));
+  const fitW = (sz.x * 0.72) / (2*Math.tan(fov/2));
+  orbit.dist = Math.max(fitH, fitW);
+  orbit.az = -0.26; orbit.pol = 1.42;
   if (current) applyFinish(current);
 }
 
@@ -383,7 +381,7 @@ async function init(){
   const wanted = qp.get('c');
   const pick = (wanted && colors.find(c=>c.code.toLowerCase()===wanted.toLowerCase()))
     || colors.find(c=>c.code==='LW102') || colors[0];
-  if (pick){ document.getElementById('search').value = pick.code; applyFilter(); select(pick); }
+  if (pick){ select(pick); const on = document.querySelector('.sw.on'); if (on) on.scrollIntoView({block:'nearest'}); }
 }
 init();
 </script>
